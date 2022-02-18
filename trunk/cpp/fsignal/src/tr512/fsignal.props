@@ -1,0 +1,41 @@
+#########################################################
+#							#
+#		FireSignal Node properties		#
+#							#
+#########################################################
+
+#Nameservice location
+ORBInitRef=NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+
+#max size allowed to transport in bytes
+ORBgiopMaxMsgSize=16777216
+
+#The id of the central server
+CServerID=CentralServerRegister
+
+#The location of the file that will exist when you want to terminate the program
+FileExitName=exit
+
+#Check for the above file every N seconds
+FileExitSleepCheck=10
+
+#The location of the dir where to store serialized data
+PersistDir=persist
+
+#The location of the node XML
+#NodeXMLFileLoc=/home/bernardo/Projects/cpp/fsignal/src/tr512/xml/Tr512Node.xml
+NodeXMLFileLoc=xml/Tr512Node.xml
+
+#The location of the hardware XML files, separated by commas
+#HardwareXMLFilesLoc=tr512/xml/Hardware0.xml,/home/bernardo/Projects/cpp/fsignal/src/tr512/xml/Hardware1.xml,/home/bernardo/Projects/cpp/fsignal/src/tr512/xml/Hardware2.xml
+HardwareXMLFilesLoc=xml/Hardware0.xml
+#, tr512/xml/Hardware1.xml  
+
+
+#The locale in which your xmls are writen
+XML_Locale=portuguese
+
+#The location of the extra lib
+ExtraLibLoc=/home/andre/test.jar
+
+#leave an empty final line

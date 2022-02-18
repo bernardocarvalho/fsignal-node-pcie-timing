@@ -1,0 +1,50 @@
+#########################################################
+#							#
+#		FireSignal Node properties		#
+#							#
+#########################################################
+
+#Nameservice location
+ORBInitRef=NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+
+#max size allowed to transport in bytes
+#ORBgiopMaxMsgSize=1677721000
+ORBgiopMaxMsgSize=16777216
+
+#The id of the central server
+CServerID=CentralServerRegister
+
+#The location of the file that will exist when you want to terminate the program
+FileExitName=exit
+
+#Check for the above file every N seconds
+FileExitSleepCheck=10
+
+#The location of the dir where to store serialized data
+PersistDir=persist
+
+#The location of the node XML
+NodeXMLFileLoc=/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/xml/KN3GNode.xml
+
+#The location of the hardware XML files, separated by commas
+HardwareXMLFilesLoc=/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/xml/HWSlot3.xml,/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/xml/HWSlot15.xml,/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/xml/HWSlot4.xml,/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/xml/HWSlot16.xml
+
+#The locale in which your xmls are writen
+XML_Locale=portuguese
+
+#The location of the extra lib
+ExtraLibLoc=/home/andre/test.jar
+
+#The location of the dev files. It must be on the same order of the HardwareXMLFilesLoc
+DevFileLocations=/dev/pcie3,/dev/pcie15,/dev/pcie4,/dev/pcie16
+
+#The maximum amount of bytes per cluster
+BufferSendSize=8388608
+
+#Events that can trigger an acquisition (0x1000 is the one used for JET)
+AcceptedTriggerEventIDs=0x0000,0x1000
+
+#The event which signals end of pulse
+EndOfPulseEventID=0x1001
+
+#leave an empty final line

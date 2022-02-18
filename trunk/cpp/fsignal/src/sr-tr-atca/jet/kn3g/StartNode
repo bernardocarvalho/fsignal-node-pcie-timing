@@ -1,0 +1,8 @@
+KN3G_NODE=/home/jet/kn3g-2.00/node/cpp/fsignal/src/sr-tr-atca/jet/kn3g/
+FS_CPP_BUILD=/home/jet/kn3g-2.00/node/cpp/fsignal/src/build/
+
+cd $KN3G_NODE
+export LD_LIBRARY_PATH=$FS_CPP_BUILD
+./build/KN3GNodeMain.ex fsignal.props log.config.props.file&
+cd -
+

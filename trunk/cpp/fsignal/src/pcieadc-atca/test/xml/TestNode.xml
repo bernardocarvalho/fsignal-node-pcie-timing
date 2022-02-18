@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE node SYSTEM "Node.dtd">
+
+<node uniqueID="PCIE_ATCA_ADC_TEST">
+    <name xml:lang="en">ATCA PCIe Test Node</name>    
+    <description xml:lang="en">ATCA PCIe Test Node</description>    
+</node>
+

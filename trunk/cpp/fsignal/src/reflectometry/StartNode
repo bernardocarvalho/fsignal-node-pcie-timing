@@ -1,0 +1,11 @@
+REFLECT_NODE=/home/ipfnist/workspace/fsignal/cpp/fsignal/src/reflectometry/
+
+FS_CPP_BUILD=/home/ipfnist/workspace/fsignal/cpp/fsignal/src/build/
+
+cd $REFLECT_NODE
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$FS_CPP_BUILD:/usr/local/lib/
+#export ORBtraceLevel=40
+
+./build/ReflectNodeMain.ex fsignal.props log.config.props.file &
+cd -
+

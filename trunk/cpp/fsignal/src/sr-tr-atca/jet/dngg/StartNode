@@ -1,0 +1,8 @@
+DNG_NODE=/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/
+FS_CPP_BUILD=/opt/node/cpp/fsignal/src/build/
+
+cd $DNG_NODE
+export LD_LIBRARY_PATH=$FS_CPP_BUILD
+./build/DNGNodeMain.ex fsignal.props log.config.props.file &
+cd -
+

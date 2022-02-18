@@ -1,0 +1,2581 @@
+2017-11-23 17:22:11,816 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 17:22:11,817 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 17:22:11,821 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 17:22:11,821 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 17:22:11,821 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-23 17:22:11,821 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 17:22:31,786 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,786 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511457751sec 786144 usec
+HW Status REG 0x0
+
+2017-11-23 17:22:31,786 [INFO]: PcieTimingNode.cpp: tstart sec=  1511454151 nSec =  -1511828487411000000
+2017-11-23 17:22:31,791 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 17:22:31,794 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 17:22:31,797 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,800 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,802 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,804 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:22:31,806 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:22:31,808 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,810 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 17:22:31,810 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,812 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:22:31,812 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,815 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:22:31,815 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,818 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:22:31,818 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,821 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:22:31,821 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,823 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,823 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,826 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,826 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:31,829 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:22:31,829 [INFO]: PcieTimingNode.cpp: While setting Timer regs, error ioctling the device ret -1, dev /dev/kx1_pcie_timing1
+2017-11-23 17:22:32,829 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:22:32,829 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 17:26:17,171 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:26:17,172 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511457977sec 172037 usec
+HW Status REG 0x0
+
+2017-11-23 17:26:17,172 [INFO]: PcieTimingNode.cpp: tstart sec=  1511454377 nSec =  -1511828488025000000
+2017-11-23 17:26:17,177 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 17:26:17,179 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 17:26:17,181 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,183 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,185 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,187 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:26:17,189 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:26:17,191 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,193 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 17:26:17,195 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:26:17,198 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:26:17,200 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:26:17,202 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:26:17,205 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,207 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:17,209 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:26:18,209 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:26:18,210 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 17:28:05,941 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:28:05,941 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511458085sec 941771 usec
+HW Status REG 0x0
+
+2017-11-23 17:28:05,941 [INFO]: PcieTimingNode.cpp: tstart sec=  1511454485 nSec =  -1511828487254000000
+2017-11-23 17:28:05,944 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 17:28:05,946 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 17:28:05,948 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:05,951 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:05,953 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:28:05,955 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:28:05,957 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:28:05,959 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:05,961 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 17:28:05,964 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:28:05,966 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:28:05,969 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:28:05,971 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:28:05,973 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:05,976 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:05,979 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:28:06,979 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:28:06,979 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 17:37:41,830 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 17:38:31,734 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 17:38:31,734 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 17:38:31,738 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 17:38:31,738 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 17:38:31,738 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-23 17:38:31,738 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 17:38:53,976 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:38:53,976 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511458733sec 976934 usec
+HW Status REG 0x0
+
+2017-11-23 17:38:53,976 [INFO]: PcieTimingNode.cpp: tstart sec=  1511455133 nSec =  -1511828487224000000
+2017-11-23 17:38:53,982 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:53,984 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:53,986 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:53,988 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:53,990 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 30000000, Config:0x20000000
+
+2017-11-23 17:38:53,992 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 30000000, Config:0x20000000
+
+2017-11-23 17:38:53,994 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 30000000, Config:0x20000000
+
+2017-11-23 17:38:53,996 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:53,997 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 30000000, Config:0x0
+
+2017-11-23 17:38:53,999 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 30000000, Config:0x0
+
+2017-11-23 17:38:54,001 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 30000000, Config:0x0
+
+2017-11-23 17:38:54,003 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 30000000, Config:0x0
+
+2017-11-23 17:38:54,006 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 30000000, Config:0x0
+
+2017-11-23 17:38:54,008 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:54,010 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:54,012 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 30000000, Config:0x10000000
+
+2017-11-23 17:38:54,012 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:38:54,012 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 17:42:31,737 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 17:42:40,418 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 17:42:40,419 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 17:42:40,423 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 17:42:40,423 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 17:42:40,423 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-23 17:42:40,423 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 17:42:47,341 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:42:47,341 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511458967sec 341457 usec
+HW Status REG 0x0
+
+2017-11-23 17:42:47,341 [INFO]: PcieTimingNode.cpp: tstart sec=  1511455367 nSec =  -1511828487861000000
+2017-11-23 17:42:47,345 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 17:42:47,347 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 17:42:47,350 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:47,352 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:47,354 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:42:47,356 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:42:47,358 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:42:47,360 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:47,362 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 17:42:47,364 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:42:47,366 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:42:47,368 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:42:47,370 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:42:47,372 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:47,374 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:47,377 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:42:48,377 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:42:48,377 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 17:45:40,421 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 17:46:48,944 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 17:46:48,944 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 17:46:48,948 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 17:46:48,948 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 17:46:48,948 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-23 17:46:48,948 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 17:59:57,097 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 17:59:57,098 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511459997sec 98071 usec
+HW Status REG 0x0
+
+2017-11-23 17:59:57,098 [INFO]: PcieTimingNode.cpp: tstart sec=  1511456544 nSec =  -1511828487692000000
+2017-11-23 17:59:57,106 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 17:59:57,107 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 17:59:57,109 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 300000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:57,111 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 400000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:57,113 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 500000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:59:57,114 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 600000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:59:57,116 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 700000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 17:59:57,118 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 800000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:57,119 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 17:59:57,121 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:59:57,123 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:59:57,124 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:59:57,126 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 17:59:57,128 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:57,130 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:57,131 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x10000000
+
+2017-11-23 17:59:58,132 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 17:59:58,132 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:05:06,682 [INFO]: PcieTimingNode.cpp: Acquisition abort request!
+2017-11-23 18:07:50,938 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:07:50,939 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511460470sec 939023 usec
+HW Status REG 0x0
+
+2017-11-23 18:07:50,939 [INFO]: PcieTimingNode.cpp: tstart sec=  1511457018 nSec =  -1511828487863000000
+2017-11-23 18:07:50,947 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:07:50,948 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:07:50,950 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 30000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:07:50,952 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:07:50,954 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:07:50,955 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:07:50,957 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:07:50,959 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:07:50,960 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:07:50,962 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,964 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,966 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,967 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,969 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,971 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:50,972 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:07:51,973 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:07:51,973 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:13:06,312 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:13:06,312 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511460786sec 312579 usec
+HW Status REG 0x0
+
+2017-11-23 18:13:06,312 [INFO]: PcieTimingNode.cpp: tstart sec=  1511457333 nSec =  -1511828487496000000
+2017-11-23 18:13:06,318 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 10000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:13:06,320 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 20000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:13:06,322 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 30000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:13:06,323 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:13:06,325 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:13:06,327 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:13:06,329 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:13:06,330 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:13:06,332 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:13:06,334 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,335 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,337 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,339 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,341 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,342 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:06,344 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:13:07,344 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:13:07,344 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:20:40,558 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:20:40,558 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511461240sec 558409 usec
+HW Status REG 0x0
+
+2017-11-23 18:20:40,558 [INFO]: PcieTimingNode.cpp: tstart sec=  1511457787 nSec =  -1511824887261000000
+2017-11-23 18:20:40,564 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 20000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:20:40,566 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 40000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:20:40,568 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 60000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:20:40,570 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:20:40,571 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:20:40,573 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:20:40,575 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:20:40,576 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 45000000, Config:0x30000014
+
+2017-11-23 18:20:40,578 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:20:40,580 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,582 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,583 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,585 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,587 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,588 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:40,590 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:20:41,590 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:20:41,591 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:25:54,160 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:25:54,160 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511461554sec 160804 usec
+HW Status REG 0x0
+
+2017-11-23 18:25:54,160 [INFO]: PcieTimingNode.cpp: tstart sec=  1511458101 nSec =  -1511824887667000000
+2017-11-23 18:25:54,166 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 20000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:25:54,168 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 40000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:25:54,170 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 60000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:25:54,172 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:25:54,173 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:25:54,175 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:25:54,177 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:25:54,178 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 45000000, Config:0x30000014
+
+2017-11-23 18:25:54,180 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:25:54,182 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,184 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,185 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,187 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,189 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,190 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:54,192 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:25:55,192 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:25:55,192 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:26:38,978 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 18:27:03,923 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 18:27:03,923 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 18:27:03,927 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 18:27:03,927 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 18:27:03,927 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-23 18:27:03,927 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 18:29:33,814 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 18:29:33,814 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 18:29:33,818 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 18:29:33,818 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 18:29:33,818 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-23 18:29:33,818 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 18:29:43,814 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 18:29:43,925 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 18:30:32,439 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 18:30:32,439 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 18:30:32,443 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 18:30:32,443 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 18:30:32,443 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-23 18:30:32,443 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 18:30:42,439 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-23 18:34:03,985 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-23 18:34:03,985 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-23 18:34:03,989 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-23 18:34:03,989 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-23 18:34:03,989 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-23 18:34:03,989 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-23 18:34:39,212 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:34:39,213 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511462079sec 213050 usec
+HW Status REG 0x0
+
+2017-11-23 18:34:39,213 [INFO]: PcieTimingNode.cpp: tstart sec=  1511458626 nSec =  -1511828487626000000
+2017-11-23 18:34:39,220 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 20000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:34:39,222 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 40000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:34:39,224 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 60000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:34:39,226 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:34:39,228 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:34:39,229 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:34:39,231 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:34:39,233 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 45000000, Config:0x30000014
+
+2017-11-23 18:34:39,235 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:34:39,236 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,238 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,240 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,242 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,243 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,245 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:39,247 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:34:40,247 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:34:40,248 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-23 18:43:15,014 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-23 18:43:15,014 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1511462595sec 14655 usec
+HW Status REG 0x0
+
+2017-11-23 18:43:15,014 [INFO]: PcieTimingNode.cpp: tstart sec=  1511459142 nSec =  -1511828487839000000
+2017-11-23 18:43:15,022 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 20000000, Period: 2, Config:0x10000000
+
+2017-11-23 18:43:15,024 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 40000000, Period: 10000000, Config:0x10000000
+
+2017-11-23 18:43:15,026 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 60000000, Period: 0, Config:0x10000000
+
+2017-11-23 18:43:15,028 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 40000000, Period: 10000000, Config:0x3000000a
+
+2017-11-23 18:43:15,029 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:43:15,031 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:43:15,033 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 70000000, Period: 50000000, Config:0x20000000
+
+2017-11-23 18:43:15,034 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 80000000, Period: 45000000, Config:0x30000014
+
+2017-11-23 18:43:15,036 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-23 18:43:15,038 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,040 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,041 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,043 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,045 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,047 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:15,048 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-23 18:43:16,048 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-23 18:43:16,049 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-24 12:39:20,578 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-24 12:39:20,597 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-24 12:39:20,865 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-24 12:39:20,865 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-24 12:39:20,865 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-24 12:39:20,865 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-24 12:39:50,597 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-24 12:42:33,222 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-24 12:42:33,222 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-24 12:42:33,226 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-24 12:42:33,226 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-24 12:42:33,226 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-24 12:42:33,226 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-24 12:44:23,223 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-27 12:11:45,721 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-27 12:11:45,750 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-27 12:11:45,964 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-27 12:11:45,965 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-27 12:11:45,965 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-27 12:11:45,965 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-27 12:12:15,751 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-29 16:24:29,426 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-29 16:24:29,455 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-29 16:24:29,647 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-29 16:24:29,647 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-29 16:24:29,647 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-29 16:24:29,647 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-29 16:28:22,533 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 16:28:22,533 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-29 16:28:22,533 [INFO]: PcieTimingNode.cpp: tstart sec=  1511969448 nSec =  -1511828487637000000
+2017-11-29 16:28:22,541 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 2000000, Period: 2, Config:0x10000000
+
+2017-11-29 16:28:22,542 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 4000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 16:28:22,544 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 6000000, Period: 0, Config:0x10000000
+
+2017-11-29 16:28:22,546 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 8000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 16:28:22,547 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 5000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:28:22,549 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:28:22,551 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:28:22,553 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 8000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 16:28:22,554 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 16:28:22,556 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,558 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,559 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,561 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,563 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,565 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:22,566 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:28:23,567 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 16:28:23,567 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 16:35:03,044 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 16:35:03,044 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-29 16:35:03,044 [INFO]: PcieTimingNode.cpp: tstart sec=  1511969849 nSec =  -1511828488135000000
+2017-11-29 16:35:03,052 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 2000000, Period: 2, Config:0x10000000
+
+2017-11-29 16:35:03,053 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 4000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 16:35:03,055 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 6000000, Period: 0, Config:0x10000000
+
+2017-11-29 16:35:03,057 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 8000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 16:35:03,059 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 5000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:35:03,060 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:35:03,062 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:35:03,064 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 8000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 16:35:03,065 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 16:35:03,067 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,069 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,070 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,072 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,074 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,076 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:03,077 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:35:04,077 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 16:35:04,078 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 16:43:55,254 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 16:43:55,254 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-29 16:43:55,254 [INFO]: PcieTimingNode.cpp: tstart sec=  1511970381 nSec =  -1511828487937000000
+2017-11-29 16:43:55,260 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 2000000, Period: 2, Config:0x10000000
+
+2017-11-29 16:43:55,262 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 4000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 16:43:55,264 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 6000000, Period: 0, Config:0x10000000
+
+2017-11-29 16:43:55,265 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 8000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 16:43:55,267 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 5000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:43:55,269 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:43:55,271 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:43:55,272 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 16:43:55,274 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 16:43:55,276 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,277 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,279 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,281 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,282 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,284 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:55,286 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:43:56,286 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 16:43:56,286 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 16:50:03,141 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 16:50:03,141 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-29 16:50:03,141 [INFO]: PcieTimingNode.cpp: tstart sec=  1511970749 nSec =  -1511828488059000000
+2017-11-29 16:50:03,147 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-29 16:50:03,149 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 16:50:03,151 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-29 16:50:03,153 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 16:50:03,154 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:50:03,156 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:50:03,158 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:50:03,159 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 16:50:03,161 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 16:50:03,163 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,165 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,166 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,168 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,170 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,171 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:03,173 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:50:04,173 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 16:50:04,173 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 16:55:40,687 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 16:55:40,687 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-29 16:55:40,687 [INFO]: PcieTimingNode.cpp: tstart sec=  1511971086 nSec =  -1511824887524000000
+2017-11-29 16:55:40,694 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-29 16:55:40,695 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 16:55:40,697 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-29 16:55:40,699 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 16:55:40,700 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:55:40,702 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:55:40,704 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 16:55:40,706 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 16:55:40,707 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 16:55:40,709 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,711 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,712 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,714 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,716 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,718 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:40,719 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 16:55:41,720 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 16:55:41,720 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 17:05:59,320 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-29 17:05:59,321 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-29 17:05:59,321 [INFO]: PcieTimingNode.cpp: tstart sec=  1511971705 nSec =  -1511828487903000000
+2017-11-29 17:05:59,327 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-29 17:05:59,329 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-29 17:05:59,330 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-29 17:05:59,332 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-29 17:05:59,334 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 17:05:59,335 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 10000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 17:05:59,337 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-29 17:05:59,339 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-29 17:05:59,341 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-29 17:05:59,342 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,344 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,346 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,347 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,349 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,351 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:05:59,353 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-29 17:06:00,353 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-29 17:06:00,353 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-29 17:14:29,497 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-30 16:06:47,882 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-30 16:06:47,899 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-30 16:06:48,040 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-11-30 16:06:48,040 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-30 16:06:48,040 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-11-30 16:06:48,040 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-30 16:18:17,724 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 16:18:17,724 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=27, /dev/kx1_pcie_timing1
+2017-11-30 16:18:17,724 [INFO]: PcieTimingNode.cpp: tstart sec=  1512055243 nSec =  -1511828487400000000
+2017-11-30 16:18:17,731 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 16:18:17,733 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 16:18:17,735 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 16:18:17,737 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 16:18:17,738 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 16:18:17,740 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 16:18:17,742 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 16:18:17,743 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 16:18:17,745 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 16:18:17,747 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,749 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,750 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,752 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,754 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,755 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:17,757 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:18:18,758 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 16:18:18,758 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 16:25:00,450 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 16:25:00,450 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 16:25:00,450 [INFO]: PcieTimingNode.cpp: tstart sec=  1512055646 nSec =  -1511828487685000000
+2017-11-30 16:25:00,458 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 16:25:00,460 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 16:25:00,462 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 16:25:00,463 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 16:25:00,465 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 16:25:00,467 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 16:25:00,468 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 16:25:00,470 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 16:25:00,472 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 16:25:00,474 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,475 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,477 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,479 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,480 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,482 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:00,484 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:25:01,484 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 16:25:01,484 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 16:35:47,223 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 16:35:47,223 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 16:35:47,223 [INFO]: PcieTimingNode.cpp: tstart sec=  1512056293 nSec =  -1511828487925000000
+2017-11-30 16:35:47,229 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 16:35:47,231 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 16:35:47,233 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 16:35:47,235 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 16:35:47,236 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 16:35:47,238 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 16:35:47,240 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 16:35:47,242 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 16:35:47,243 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 16:35:47,245 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,247 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,249 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,250 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,252 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,254 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:47,255 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:35:48,256 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 16:35:48,256 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 16:50:00,262 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 16:50:00,262 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 16:50:00,262 [INFO]: PcieTimingNode.cpp: tstart sec=  1512057146 nSec =  -1511828487908000000
+2017-11-30 16:50:00,269 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 16:50:00,277 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 16:50:00,284 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 16:50:00,292 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 16:50:00,297 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 16:50:00,301 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 16:50:00,304 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 16:50:00,307 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 16:50:00,310 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 16:50:00,312 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,315 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,317 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,319 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,321 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,323 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:00,325 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:50:01,325 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 16:50:01,325 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 16:57:43,296 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 16:57:43,297 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 16:57:43,297 [INFO]: PcieTimingNode.cpp: tstart sec=  1512057609 nSec =  -1511828487884000000
+2017-11-30 16:57:43,303 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 16:57:43,305 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 16:57:43,307 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 16:57:43,308 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 16:57:43,310 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 16:57:43,312 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 16:57:43,314 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 16:57:43,315 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 16:57:43,317 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 16:57:43,319 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,321 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,322 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,324 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,326 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,328 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:43,329 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 16:57:44,330 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 16:57:44,330 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:06:22,363 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:06:22,363 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:06:22,363 [INFO]: PcieTimingNode.cpp: tstart sec=  1512058128 nSec =  -1511828487830000000
+2017-11-30 17:06:22,369 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:06:22,371 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:06:22,373 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:06:22,374 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:06:22,376 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:06:22,378 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:06:22,380 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:06:22,381 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:06:22,383 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:06:22,385 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,386 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,388 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,390 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,392 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,393 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:22,395 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:06:23,395 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:06:23,395 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:11:54,400 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:11:54,400 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:11:54,400 [INFO]: PcieTimingNode.cpp: tstart sec=  1512058460 nSec =  -1511828487800000000
+2017-11-30 17:11:54,406 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:11:54,408 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:11:54,410 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:11:54,412 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:11:54,413 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:11:54,415 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:11:54,417 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:11:54,418 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:11:54,420 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:11:54,422 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,424 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,425 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,427 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,429 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,431 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:54,432 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:11:55,432 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:11:55,433 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:17:06,359 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:17:06,359 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:17:06,359 [INFO]: PcieTimingNode.cpp: tstart sec=  1512058772 nSec =  -1511828487849000000
+2017-11-30 17:17:06,365 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:17:06,367 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:17:06,369 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:17:06,370 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:17:06,372 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:17:06,374 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:17:06,376 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:17:06,377 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:17:06,379 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:17:06,381 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,383 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,384 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,386 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,388 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,390 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:06,391 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:17:07,392 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:17:07,392 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:23:06,398 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:23:06,398 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 17:23:06,398 [INFO]: PcieTimingNode.cpp: tstart sec=  1512059132 nSec =  -1511828487819000000
+2017-11-30 17:23:06,404 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:23:06,406 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:23:06,408 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:23:06,410 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:23:06,411 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:23:06,413 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:23:06,415 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:23:06,416 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:23:06,418 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:23:06,420 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,422 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,423 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,425 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,427 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,429 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:06,430 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:23:07,431 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:23:07,431 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:29:02,093 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:29:02,093 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:29:02,093 [INFO]: PcieTimingNode.cpp: tstart sec=  1512059488 nSec =  -1511828488133000000
+2017-11-30 17:29:02,099 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:29:02,101 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:29:02,103 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:29:02,104 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:29:02,106 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:29:02,108 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:29:02,110 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:29:02,111 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:29:02,113 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:29:02,115 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,117 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,118 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,120 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,122 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,124 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:02,125 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:29:03,125 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:29:03,126 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:37:38,511 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:37:38,511 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:37:38,511 [INFO]: PcieTimingNode.cpp: tstart sec=  1512060004 nSec =  -1511828487727000000
+2017-11-30 17:37:38,517 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:37:38,519 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:37:38,521 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:37:38,522 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:37:38,524 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:37:38,526 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:37:38,528 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:37:38,529 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:37:38,531 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:37:38,533 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,534 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,536 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,538 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,540 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,541 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:38,543 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:37:39,543 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:37:39,543 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:45:10,944 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:45:10,944 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:45:10,944 [INFO]: PcieTimingNode.cpp: tstart sec=  1512060456 nSec =  -1511828487305000000
+2017-11-30 17:45:10,951 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:45:10,953 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:45:10,955 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:45:10,956 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:45:10,958 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:45:10,960 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:45:10,961 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:45:10,963 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:45:10,965 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:45:10,967 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,968 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,970 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,972 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,974 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:10,977 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:45:11,977 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:45:11,977 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:50:45,278 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:50:45,278 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=19, /dev/kx1_pcie_timing1
+2017-11-30 17:50:45,279 [INFO]: PcieTimingNode.cpp: tstart sec=  1512060791 nSec =  -1511828487979000000
+2017-11-30 17:50:45,285 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:50:45,287 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:50:45,288 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:50:45,290 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:50:45,292 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:50:45,294 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:50:45,295 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:50:45,297 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:50:45,299 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:50:45,301 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,302 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,304 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,306 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,308 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,309 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:45,311 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:50:46,311 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:50:46,311 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-11-30 17:56:47,374 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2017-11-30 17:56:47,374 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=18, /dev/kx1_pcie_timing1
+2017-11-30 17:56:47,374 [INFO]: PcieTimingNode.cpp: tstart sec=  1512061153 nSec =  -1511828487892000000
+2017-11-30 17:56:47,380 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1500000000, Period: 2, Config:0x10000000
+
+2017-11-30 17:56:47,382 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1510000000, Period: 10000000, Config:0x10000000
+
+2017-11-30 17:56:47,384 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1520000000, Period: 0, Config:0x10000000
+
+2017-11-30 17:56:47,385 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1530000000, Period: 8000000, Config:0x3000000a
+
+2017-11-30 17:56:47,387 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 50000000, Period: 5000000, Config:0x30000001
+
+2017-11-30 17:56:47,389 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 60000000, Period: 5000000, Config:0x30000002
+
+2017-11-30 17:56:47,390 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 7000000, Period: 5000000, Config:0x20000000
+
+2017-11-30 17:56:47,392 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1500000000, Period: 4500000, Config:0x30000014
+
+2017-11-30 17:56:47,394 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 20000000, Period: 20000000, Config:0x0
+
+2017-11-30 17:56:47,396 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,397 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,399 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,401 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,403 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,404 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:47,406 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 20000000, Period: 0, Config:0x0
+
+2017-11-30 17:56:48,406 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2017-11-30 17:56:48,406 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2017-12-05 16:31:36,988 [INFO]: FSNode.cpp: Node is being constructed
+2017-12-05 16:31:36,988 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-12-05 16:31:36,992 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-12-05 16:31:36,992 [DEBUG]: FSNode.cpp: CORBA args:
+2017-12-05 16:31:36,992 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-12-05 16:31:36,992 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-12-05 16:33:16,989 [INFO]: FSNode.cpp: File found. Exiting
+2017-12-12 10:06:02,110 [INFO]: FSNode.cpp: Node is being constructed
+2017-12-12 10:06:02,110 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-12-12 10:06:02,114 [INFO]: PcieTimingNode.cpp: The buffer send size is: 8388608
+2017-12-12 10:06:02,114 [DEBUG]: FSNode.cpp: CORBA args:
+2017-12-12 10:06:02,114 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2017-12-12 10:06:02,114 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-12-12 10:07:32,111 [INFO]: FSNode.cpp: File found. Exiting
+2018-02-19 15:38:18,379 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-19 15:38:18,379 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-19 15:38:18,383 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-19 15:38:18,383 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-19 15:38:18,383 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-19 15:39:28,380 [INFO]: FSNode.cpp: File found. Exiting
+2018-02-19 15:41:47,049 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-19 15:41:47,049 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-19 15:41:47,053 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-19 15:41:47,053 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-19 15:41:47,053 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-19 15:46:37,053 [INFO]: FSNode.cpp: File found. Exiting
+2018-02-19 15:46:43,654 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-19 15:46:43,654 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-19 15:46:43,654 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-19 15:46:43,654 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-19 15:46:43,654 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Time to shot: 30589000us; Shot time: 1519055669; Time Correction: 3600
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=4294967295, /dev/kx1_pcie_timing1
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 305890000, Period: 0, Config:0x90000000
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 280890000, Period: 1000000, Config:0x30000001
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 25890000, Period: 0, Config:0x10000000
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 35890000, Period: 0, Config:0x10000000
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 305890001, Period: 0, Config:0x30000001
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 5890000, Period: 10000000, Config:0x3000000a
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 3108577296, Period: 10000000, Config:0x20000000
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 3108577296, Period: 10000000, Config:0xa0000000
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 305890001, Period: 0, Config:0x0
+
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-02-19 15:53:59,593 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Time to shot: 150970000us; Shot time: 1519052441; Time Correction: 3600
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=4294967295, /dev/kx1_pcie_timing1
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1509700000, Period: 0, Config:0x90000000
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1484700000, Period: 1000000, Config:0x30000001
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1229700000, Period: 0, Config:0x10000000
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1239700000, Period: 0, Config:0x10000000
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1509700001, Period: 0, Config:0x30000001
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1209700000, Period: 10000000, Config:0x3000000a
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 17420000, Period: 10000000, Config:0x20000000
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 17420000, Period: 10000000, Config:0xa0000000
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:11,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1509700001, Period: 0, Config:0x0
+
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-02-19 15:58:12,001 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-02-19 16:07:13,672 [INFO]: FSNode.cpp: File found. Exiting
+2018-02-20 14:28:54,243 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-20 14:28:54,281 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-20 14:28:54,460 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-20 14:28:54,460 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-20 14:28:54,460 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-20 14:29:28,718 [INFO]: PcieTimingNode.cpp: Time to shot: 60714000us; Shot time: 1519137028; Time Correction: 3600
+2018-02-20 14:29:28,718 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-02-20 14:29:28,718 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=4294967295, /dev/kx1_pcie_timing1
+2018-02-20 14:29:28,720 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 607140000, Period: 0, Config:0x90000000
+
+2018-02-20 14:29:28,722 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 582140000, Period: 1000000, Config:0x30000001
+
+2018-02-20 14:29:28,725 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 327140000, Period: 0, Config:0x10000000
+
+2018-02-20 14:29:28,727 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 337140000, Period: 0, Config:0x10000000
+
+2018-02-20 14:29:28,729 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 607140001, Period: 0, Config:0x30000001
+
+2018-02-20 14:29:28,730 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 307140000, Period: 10000000, Config:0x3000000a
+
+2018-02-20 14:29:28,732 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 3409827296, Period: 10000000, Config:0x20000000
+
+2018-02-20 14:29:28,734 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 3409827296, Period: 10000000, Config:0xa0000000
+
+2018-02-20 14:29:28,736 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,737 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,739 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,741 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,743 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,746 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,748 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,751 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 607140001, Period: 0, Config:0x0
+
+2018-02-20 14:29:28,751 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-02-20 14:29:28,751 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-02-20 15:46:32,639 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-20 15:46:32,640 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-20 15:46:32,664 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-20 15:46:32,664 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-20 15:46:32,664 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-20 15:56:14,414 [INFO]: PcieTimingNode.cpp: Time to shot: 150411000us; Shot time: 1519142324; Time Correction: 3600
+2018-02-20 15:56:14,414 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-02-20 15:56:14,414 [INFO]: PcieTimingNode.cpp: While getting Status, error ioctling the device, ret= 0, status=27, /dev/kx1_pcie_timing1
+2018-02-20 15:56:14,417 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1504110000, Period: 0, Config:0x90000000
+
+2018-02-20 15:56:14,418 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1479110000, Period: 1000000, Config:0x30000001
+
+2018-02-20 15:56:14,420 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1224110000, Period: 0, Config:0x10000000
+
+2018-02-20 15:56:14,422 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1234110000, Period: 0, Config:0x10000000
+
+2018-02-20 15:56:14,425 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 14110000, Period: 0, Config:0x30000001
+
+2018-02-20 15:56:14,427 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1204110000, Period: 10000000, Config:0x3000000a
+
+2018-02-20 15:56:14,430 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 14110000, Period: 10000000, Config:0x20000000
+
+2018-02-20 15:56:14,433 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 14110000, Period: 10000000, Config:0xa0000000
+
+2018-02-20 15:56:14,435 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,438 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,440 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,442 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,443 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,445 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,447 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,449 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 14110000, Period: 0, Config:0x0
+
+2018-02-20 15:56:14,449 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-02-20 15:56:14,449 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-02-20 16:55:52,699 [INFO]: FSNode.cpp: File found. Exiting
+2018-02-23 15:08:56,158 [INFO]: FSNode.cpp: Node is being constructed
+2018-02-23 15:08:56,158 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-02-23 15:08:56,162 [DEBUG]: FSNode.cpp: CORBA args:
+2018-02-23 15:08:56,162 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-02-23 15:08:56,162 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-02-23 15:33:06,179 [INFO]: FSNode.cpp: File found. Exiting
+2018-03-29 16:19:53,975 [INFO]: FSNode.cpp: Node is being constructed
+2018-03-29 16:19:54,020 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-03-29 16:19:54,198 [INFO]: PcieTimingNode.cpp: Failed to open device at:/dev/kx1_pcie_timing1 This is a very serious error!
+2018-03-29 16:19:54,198 [DEBUG]: FSNode.cpp: CORBA args:
+2018-03-29 16:19:54,198 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-03-29 16:19:54,198 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-03-29 17:22:13,811 [INFO]: FSNode.cpp: Node is being constructed
+2018-03-29 17:22:13,827 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-03-29 17:22:14,026 [DEBUG]: FSNode.cpp: CORBA args:
+2018-03-29 17:22:14,026 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-03-29 17:22:14,026 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-03-29 17:26:03,067 [INFO]: PcieTimingNode.cpp: Time to shot: -3449938000us; Shot time: 1522340913; Time Correction: 0
+2018-03-29 17:26:03,067 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-03-29 17:26:03,067 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1522340763sec 67681 usec
+HW Status REG 0x1b
+
+2018-03-29 17:26:03,070 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_000 is zero or negative (-34499380000). Using 100 ns.
+2018-03-29 17:26:03,070 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1, Period: 0, Config:0x90000000
+
+2018-03-29 17:26:03,072 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_001 is zero or negative (-30229412704). Using 100 ns.
+2018-03-29 17:26:03,072 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1, Period: 1000000, Config:0x30000001
+
+2018-03-29 17:26:03,074 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_002 is zero or negative (-30484412704). Using 100 ns.
+2018-03-29 17:26:03,074 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1, Period: 0, Config:0x10000000
+
+2018-03-29 17:26:03,076 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_003 is zero or negative (-30474412704). Using 100 ns.
+2018-03-29 17:26:03,076 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1, Period: 0, Config:0x10000000
+
+2018-03-29 17:26:03,078 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_004 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,078 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1, Period: 0, Config:0x30000001
+
+2018-03-29 17:26:03,080 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_005 is zero or negative (-30504412704). Using 100 ns.
+2018-03-29 17:26:03,081 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1, Period: 10000000, Config:0x3000000a
+
+2018-03-29 17:26:03,083 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_006 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,083 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1, Period: 10000000, Config:0x20000000
+
+2018-03-29 17:26:03,085 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_007 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,085 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1, Period: 10000000, Config:0xa0000000
+
+2018-03-29 17:26:03,088 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_008 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,088 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,090 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_009 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,090 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,093 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_010 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,093 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,095 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_011 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,095 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,097 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_012 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,097 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,099 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_013 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,099 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,100 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_014 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,100 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,102 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_015 is zero or negative (-31694412704). Using 100 ns.
+2018-03-29 17:26:03,102 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1, Period: 0, Config:0x0
+
+2018-03-29 17:26:03,102 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-03-29 17:26:03,102 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-03-29 17:27:23,832 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-04 15:17:10,450 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-04 15:17:10,450 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-04 15:17:10,454 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-04 15:17:10,454 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-04 15:17:10,454 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-04 15:20:20,453 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-04 17:52:03,948 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-04 17:52:03,948 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-04 17:52:03,952 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-04 17:52:03,952 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-04 17:52:03,952 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-04 17:56:03,952 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 11:26:45,097 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 11:26:45,097 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 11:26:45,102 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 11:26:45,102 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 11:26:45,102 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 11:40:41,385 [INFO]: PcieTimingNode.cpp: Time to shot: -3479619000us; Shot time: 1523529761; Time Correction: 0
+2018-04-12 11:40:41,385 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 11:40:41,385 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523529641sec 385509 usec
+HW Status REG 0xffffffff
+
+2018-04-12 11:40:41,387 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_000 is zero or negative (-30501327704). Using 100 ns.
+2018-04-12 11:40:41,387 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,389 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_001 is zero or negative (-30526326704). Using 100 ns.
+2018-04-12 11:40:41,389 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,391 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_002 is zero or negative (-30501237704). Using 100 ns.
+2018-04-12 11:40:41,391 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,393 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_003 is zero or negative (-34796140000). Using 100 ns.
+2018-04-12 11:40:41,393 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,394 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_004 is zero or negative (-34796060000). Using 100 ns.
+2018-04-12 11:40:41,394 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,397 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_005 is zero or negative (-34796190000). Using 100 ns.
+2018-04-12 11:40:41,397 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,399 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_006 is zero or negative (-30501237704). Using 100 ns.
+2018-04-12 11:40:41,399 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,402 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_007 is zero or negative (-34796190000). Using 100 ns.
+2018-04-12 11:40:41,402 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,404 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_008 is zero or negative (-30501237704). Using 100 ns.
+2018-04-12 11:40:41,404 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,406 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_009 is zero or negative (-30501277704). Using 100 ns.
+2018-04-12 11:40:41,406 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,408 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_010 is zero or negative (-30501326704). Using 100 ns.
+2018-04-12 11:40:41,408 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,409 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_011 is zero or negative (-30501327694). Using 100 ns.
+2018-04-12 11:40:41,409 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,411 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_012 is zero or negative (-30501326704). Using 100 ns.
+2018-04-12 11:40:41,411 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,413 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_013 is zero or negative (-30501327204). Using 100 ns.
+2018-04-12 11:40:41,413 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,415 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_014 is zero or negative (-30501307704). Using 100 ns.
+2018-04-12 11:40:41,415 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,416 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_015 is zero or negative (-30501327604). Using 100 ns.
+2018-04-12 11:40:41,416 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:40:41,416 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 11:40:41,416 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 12:03:25,128 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 11:07:33,837 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 11:07:33,838 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 11:07:33,842 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 11:07:33,842 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 11:07:33,842 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 11:07:55,117 [INFO]: PcieTimingNode.cpp: Time to shot: -1524713269967000us; Shot time: 1523531395; Time Correction: 0
+2018-04-12 11:07:55,117 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 11:07:55,117 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523531275 sec 117431 usec
+HW Status REG 0xffffffff
+
+2018-04-12 11:07:55,120 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_000 is zero or negative (-15247128404807704). Using 100 ns.
+2018-04-12 11:07:55,120 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,122 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_001 is zero or negative (-15247128429806704). Using 100 ns.
+2018-04-12 11:07:55,122 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,125 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_002 is zero or negative (-15247128404717704). Using 100 ns.
+2018-04-12 11:07:55,125 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,127 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_003 is zero or negative (-15247132699620000). Using 100 ns.
+2018-04-12 11:07:55,127 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,130 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_004 is zero or negative (-15247132699540000). Using 100 ns.
+2018-04-12 11:07:55,130 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,132 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_005 is zero or negative (-15247132699670000). Using 100 ns.
+2018-04-12 11:07:55,132 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,133 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_006 is zero or negative (-15247128404717704). Using 100 ns.
+2018-04-12 11:07:55,133 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,135 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_007 is zero or negative (-15247132699670000). Using 100 ns.
+2018-04-12 11:07:55,135 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,137 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_008 is zero or negative (-15247128404717704). Using 100 ns.
+2018-04-12 11:07:55,137 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,138 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_009 is zero or negative (-15247128404757704). Using 100 ns.
+2018-04-12 11:07:55,138 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,140 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_010 is zero or negative (-15247128404806704). Using 100 ns.
+2018-04-12 11:07:55,140 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,142 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_011 is zero or negative (-15247128404807694). Using 100 ns.
+2018-04-12 11:07:55,142 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,144 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_012 is zero or negative (-15247128404806704). Using 100 ns.
+2018-04-12 11:07:55,144 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,145 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_013 is zero or negative (-15247128404807204). Using 100 ns.
+2018-04-12 11:07:55,145 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,147 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_014 is zero or negative (-15247128404787704). Using 100 ns.
+2018-04-12 11:07:55,147 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,149 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_015 is zero or negative (-15247128404807604). Using 100 ns.
+2018-04-12 11:07:55,149 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:07:55,149 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 11:07:55,149 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 11:15:53,845 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 11:16:17,419 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 11:16:17,419 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 11:16:17,424 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 11:16:17,424 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 11:16:17,424 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 11:16:23,647 [INFO]: PcieTimingNode.cpp: Time to shot: -1524713269437000us; Shot time: -1181486437000; Time Correction: 0
+2018-04-12 11:16:23,647 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 11:16:23,647 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523531783 sec 647407 usec
+HW Status REG 0xffffffff
+
+2018-04-12 11:16:23,649 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_000 is zero or negative (-15247128399507704). Using 100 ns.
+2018-04-12 11:16:23,649 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,651 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_001 is zero or negative (-15247128424506704). Using 100 ns.
+2018-04-12 11:16:23,651 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,652 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_002 is zero or negative (-15247128399417704). Using 100 ns.
+2018-04-12 11:16:23,652 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,654 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_003 is zero or negative (-15247132694320000). Using 100 ns.
+2018-04-12 11:16:23,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,656 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_004 is zero or negative (-15247132694240000). Using 100 ns.
+2018-04-12 11:16:23,656 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,658 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_005 is zero or negative (-15247132694370000). Using 100 ns.
+2018-04-12 11:16:23,658 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,659 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_006 is zero or negative (-15247128399417704). Using 100 ns.
+2018-04-12 11:16:23,659 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,662 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_007 is zero or negative (-15247132694370000). Using 100 ns.
+2018-04-12 11:16:23,662 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,664 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_008 is zero or negative (-15247128399417704). Using 100 ns.
+2018-04-12 11:16:23,664 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,667 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_009 is zero or negative (-15247128399457704). Using 100 ns.
+2018-04-12 11:16:23,667 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,668 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_010 is zero or negative (-15247128399506704). Using 100 ns.
+2018-04-12 11:16:23,668 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,670 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_011 is zero or negative (-15247128399507694). Using 100 ns.
+2018-04-12 11:16:23,670 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,672 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_012 is zero or negative (-15247128399506704). Using 100 ns.
+2018-04-12 11:16:23,672 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,674 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_013 is zero or negative (-15247128399507204). Using 100 ns.
+2018-04-12 11:16:23,674 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,675 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_014 is zero or negative (-15247128399487704). Using 100 ns.
+2018-04-12 11:16:23,675 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,677 [INFO]: PcieTimingNode.cpp: The absolute delay for CHANNEL_015 is zero or negative (-15247128399507604). Using 100 ns.
+2018-04-12 11:16:23,677 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1, Period: 0, Config:0x10000000
+
+2018-04-12 11:16:23,677 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 11:16:23,677 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 12:44:07,497 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 12:46:51,040 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 12:46:51,040 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 12:46:51,044 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 12:46:51,044 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 12:46:51,044 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 12:47:14,216 [INFO]: PcieTimingNode.cpp: Time to shot: 120214us; Shot time: 1523537354214; Time Correction: 0
+2018-04-12 12:47:14,216 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 12:47:14,216 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523537234 sec 216771 usec
+HW Status REG 0xffffffff
+
+2018-04-12 12:47:14,219 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1097140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,221 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 4271065436, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,223 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1187140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,226 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1252140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,228 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1332140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,230 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1202140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,232 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1187140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,234 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1202140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,236 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1187140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,237 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1147140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,239 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1098140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,241 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1097150, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,242 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1098140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,244 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1097640, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,246 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1117140, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,248 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1097240, Period: 0, Config:0x10000000
+
+2018-04-12 12:47:14,248 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 12:47:14,248 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:08:31,059 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 13:09:20,848 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 13:09:20,848 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 13:09:20,853 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 13:09:20,853 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 13:09:20,853 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 13:09:35,570 [INFO]: PcieTimingNode.cpp: Time to shot: 120565000us; Shot time: 1523538695565; Time Correction: 0
+2018-04-12 13:09:35,570 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:09:35,570 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523538575 sec 570646 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:09:35,573 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1205545000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,576 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1180546000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,579 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1205635000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,581 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1205700000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,584 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1205780000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,587 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1205650000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,590 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1205635000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,592 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1205650000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,593 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1205635000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,595 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1205595000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,597 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1205546000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,599 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1205545010, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,601 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1205546000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,603 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1205545500, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,604 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1205565000, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,606 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1205545100, Period: 0, Config:0x10000000
+
+2018-04-12 13:09:35,606 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:09:35,606 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:11:20,850 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 13:11:30,822 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 13:11:30,822 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 13:11:30,826 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 13:11:30,826 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 13:11:30,826 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 13:11:40,154 [INFO]: PcieTimingNode.cpp: Time to shot: 120149000us; Shot time: 1523538820149000; Time Correction: 0
+2018-04-12 13:11:40,154 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:11:40,154 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523538700 sec 154897 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:11:40,157 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1201385000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,159 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1176386000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,162 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1201475000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,164 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1201540000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,166 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1201620000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,167 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1201490000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,169 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1201475000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,171 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1201490000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,173 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1201475000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,174 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1201435000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,176 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1201386000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,178 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1201385010, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,180 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1201386000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,181 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1201385500, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,183 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1201405000, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,185 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1201385100, Period: 0, Config:0x10000000
+
+2018-04-12 13:11:40,185 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:11:40,185 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:18:43,259 [INFO]: PcieTimingNode.cpp: Time to shot: 120254000us; Shot time: 1523539243254000; Time Correction: 0
+2018-04-12 13:18:43,259 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:18:43,259 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523539123 sec 259222 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:18:43,261 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1202435000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,263 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1177436000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,265 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1202525000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,267 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1202590000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,269 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1202670000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,271 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1202540000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,273 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1202525000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,275 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1202540000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,277 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1202525000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,278 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1202485000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,280 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1202436000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,282 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1202435010, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,284 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1202436000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,285 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1202435500, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,287 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1202455000, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,289 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1202435100, Period: 1, Config:0x10000000
+
+2018-04-12 13:18:43,289 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:18:43,289 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:38:20,846 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-12 13:38:28,421 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-12 13:38:28,421 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-12 13:38:28,425 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-12 13:38:28,425 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-12 13:38:28,425 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Time to shot: 119996669us; Shot time: 1523540448651000; Time Correction: 0
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523540328 sec 654751 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199861690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174862690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199951690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1200016690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200096690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199966690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199951690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199966690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199951690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199911690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199862690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199861700, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199862690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199862190, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199881690, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199861790, Period: 1, Config:0x10000000
+
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:38:48,654 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Time to shot: 119997089us; Shot time: 1523540847611000; Time Correction: 0
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523540727 sec 614466 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199865890, Period: 1, Config:0x90000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174866890, Period: 1, Config:0x90000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199955890, Period: 1, Config:0x90000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1200020890, Period: 1, Config:0x90000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200100890, Period: 1, Config:0x90000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199970890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199955890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199970890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199955890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199915890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199866890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199865900, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199866890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199866390, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199885890, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199865990, Period: 1, Config:0x10000000
+
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:45:27,614 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Time to shot: 119995813us; Shot time: 1523541179911000; Time Correction: 0
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523541059 sec 915805 usec
+HW Status REG 0xffffffff
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199853130, Period: 10000000, Config:0x90000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174854130, Period: 10000000, Config:0x90000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199943130, Period: 10000000, Config:0x90000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1200008130, Period: 10000000, Config:0x90000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200088130, Period: 10000000, Config:0x90000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199958130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199943130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199958130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199943130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199903130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199854130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199853140, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199854130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199853630, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199873130, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199853230, Period: 10000000, Config:0x10000000
+
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-12 13:50:59,915 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-12 13:53:48,435 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-13 13:31:08,612 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-13 13:31:08,680 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-13 13:31:08,843 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-13 13:31:08,843 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-13 13:31:08,843 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-13 13:31:18,058 [INFO]: PcieTimingNode.cpp: Time to shot: 119996991us; Shot time: 1523626398055000; Time Correction: 0
+2018-04-13 13:31:18,058 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 13:31:18,058 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523626278 sec 58379 usec
+HW Status REG 0x1b
+
+2018-04-13 13:31:18,061 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199864910, Period: 10000000, Config:0x90000000
+
+2018-04-13 13:31:18,062 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174865910, Period: 10000000, Config:0x90000000
+
+2018-04-13 13:31:18,064 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199954910, Period: 10000000, Config:0x90000000
+
+2018-04-13 13:31:18,066 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1200019910, Period: 10000000, Config:0x90000000
+
+2018-04-13 13:31:18,069 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200099910, Period: 10000000, Config:0x90000000
+
+2018-04-13 13:31:18,071 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199969910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,073 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199954910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,075 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199969910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,077 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199954910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,079 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199914910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,081 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199865910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,083 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199864920, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,084 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199865910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,086 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199865410, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,088 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199884910, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,090 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199865010, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:31:18,090 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 13:31:18,090 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 13:37:51,218 [INFO]: PcieTimingNode.cpp: Time to shot: 119995148us; Shot time: 1523626791213000; Time Correction: 0
+2018-04-13 13:37:51,218 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 13:37:51,218 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523626671 sec 218494 usec
+HW Status REG 0x1b
+
+2018-04-13 13:37:51,220 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199846480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,223 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174847480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,224 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199936480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,226 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1200001480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,228 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200081480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,230 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199951480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,232 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199936480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,235 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199951480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,238 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199936480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,240 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199896480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,242 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199847480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,243 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199846490, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,245 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199847480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,247 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199846980, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,248 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199866480, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,250 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199846580, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:37:51,250 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 13:37:51,250 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 13:46:20,809 [INFO]: PcieTimingNode.cpp: Time to shot: 119993474us; Shot time: 1523627300802000; Time Correction: 0
+2018-04-13 13:46:20,809 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 13:46:20,809 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523627180 sec 809168 usec
+HW Status REG 0x13
+
+2018-04-13 13:46:20,811 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199829740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,815 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174830740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,818 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199919740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,821 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1199984740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,824 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200064740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,826 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199934740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,829 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199919740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,831 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199934740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,834 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199919740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,836 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199879740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,839 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199830740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,840 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199829750, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,842 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199830740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,844 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199830240, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,846 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199849740, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,847 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199829840, Period: 10000000, Config:0x10000000
+
+2018-04-13 13:46:20,848 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 13:46:20,848 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 13:54:50,367 [INFO]: PcieTimingNode.cpp: Time to shot: 119994623us; Shot time: 1523627810362000; Time Correction: 0
+2018-04-13 13:54:50,367 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 13:54:50,367 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523627690 sec 367973 usec
+HW Status REG 0x1b
+
+2018-04-13 13:54:50,370 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199841230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,372 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174842230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,374 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199931230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,376 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1199996230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,378 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200076230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,380 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199946230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,383 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199931230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,385 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199946230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,387 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199931230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,389 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199891230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,391 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199842230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,393 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199841240, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,395 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199842230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,397 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199841730, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,399 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199861230, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,400 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199841330, Period: 1, Config:0x10000000
+
+2018-04-13 13:54:50,400 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 13:54:50,400 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 14:08:20,816 [INFO]: PcieTimingNode.cpp: Time to shot: 119992921us; Shot time: 1523628620809000; Time Correction: 0
+2018-04-13 14:08:20,816 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 14:08:20,816 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523628500 sec 816563 usec
+HW Status REG 0x1b
+
+2018-04-13 14:08:20,818 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199824210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,820 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174825210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,823 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199914210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,825 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1199979210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,826 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200059210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,828 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199929210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,830 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199914210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,832 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199929210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,834 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199914210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,835 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199874210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,837 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199825210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,839 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199824220, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,841 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199825210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,842 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199824710, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,844 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199844210, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,846 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199824310, Period: 1, Config:0x10000000
+
+2018-04-13 14:08:20,846 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 14:08:20,846 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 14:12:49,597 [INFO]: PcieTimingNode.cpp: Time to shot: 119987985us; Shot time: 1523628889585000; Time Correction: 0
+2018-04-13 14:12:49,597 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 14:12:49,597 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523628769 sec 597691 usec
+HW Status REG 0x1b
+
+2018-04-13 14:12:49,600 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1199774850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,603 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1174775850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,606 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1199864850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,608 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1199929850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,611 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1200009850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,613 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1199879850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,615 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1199864850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,616 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1199879850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,618 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1199864850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,620 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1199824850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,622 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1199775850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,623 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1199774860, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,625 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1199775850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,627 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1199775350, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,629 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1199794850, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,631 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1199774950, Period: 1, Config:0x10000000
+
+2018-04-13 14:12:49,631 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 14:12:49,631 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 14:16:08,718 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-13 14:51:31,090 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-13 14:51:31,090 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-13 14:51:31,094 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-13 14:51:31,094 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2018-04-13 14:51:31,094 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-13 14:51:55,092 [INFO]: PcieTimingNode.cpp: Time to shot: 149996563us; Shot time: 1523631265088000; Time Correction: 0
+2018-04-13 14:51:55,092 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 14:51:55,092 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523631115 sec 92446 usec
+HW Status REG 0x1b
+
+2018-04-13 14:51:55,097 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499860630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,099 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474861630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,101 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499950630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,102 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1500015630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,104 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500095630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,106 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499965630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,108 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499950630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,109 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499965630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,111 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499950630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,113 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499910630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,115 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499861630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,116 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499860640, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,118 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499861630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,120 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499861130, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,121 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499880630, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,123 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499860730, Period: 1, Config:0x10000000
+
+2018-04-13 14:51:55,123 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 14:51:55,123 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 14:57:39,568 [INFO]: PcieTimingNode.cpp: Time to shot: 149992139us; Shot time: 1523631609559000; Time Correction: 0
+2018-04-13 14:57:39,568 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 14:57:39,568 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523631459 sec 568623 usec
+HW Status REG 0x13
+
+2018-04-13 14:57:39,573 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499816390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,575 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474817390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,577 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499906390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,578 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499971390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,580 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500051390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,582 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499921390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,583 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499906390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,585 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499921390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,587 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499906390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,589 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499866390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,590 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499817390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,592 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499816400, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,594 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499817390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,596 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499816890, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,597 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499836390, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,599 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499816490, Period: 1, Config:0x10000000
+
+2018-04-13 14:57:39,599 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 14:57:39,599 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:04:18,404 [INFO]: PcieTimingNode.cpp: Time to shot: 149969994us; Shot time: 1523632008373000; Time Correction: 0
+2018-04-13 15:04:18,404 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 15:04:18,404 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523631858 sec 404773 usec
+HW Status REG 0x1b
+
+2018-04-13 15:04:18,409 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499594940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,411 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474595940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,412 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499684940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,414 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499749940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,416 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1499829940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,417 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499699940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,419 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499684940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,421 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499699940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,423 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499684940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,424 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499644940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,426 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499595940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,428 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499594950, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,430 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499595940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,431 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499595440, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,433 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499614940, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,435 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499595040, Period: 1, Config:0x10000000
+
+2018-04-13 15:04:18,435 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 15:04:18,435 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:10:06,963 [INFO]: PcieTimingNode.cpp: Time to shot: 149993838us; Shot time: 1523632356956000; Time Correction: 0
+2018-04-13 15:10:06,963 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 15:10:06,963 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523632206 sec 963956 usec
+HW Status REG 0x1b
+
+2018-04-13 15:10:06,968 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499833380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,970 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474834380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,972 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499923380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,974 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499988380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,975 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500068380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,977 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499938380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,979 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499923380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,981 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499938380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,982 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499923380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,984 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499883380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,986 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499834380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,987 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499833390, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,989 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499834380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,991 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499833880, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,993 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499853380, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,994 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499833480, Period: 1, Config:0x10000000
+
+2018-04-13 15:10:06,994 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 15:10:06,994 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:19:36,522 [INFO]: PcieTimingNode.cpp: Time to shot: 149992788us; Shot time: 1523632926514000; Time Correction: 0
+2018-04-13 15:19:36,522 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 15:19:36,523 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523632776 sec 523003 usec
+HW Status REG 0x1b
+
+2018-04-13 15:19:36,527 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499822880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,529 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474823880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,530 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499912880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,532 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499977880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,534 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500057880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,536 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499927880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,537 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499912880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,539 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499927880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,541 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499912880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,542 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499872880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,544 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499823880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,546 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499822890, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,548 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499823880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,549 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499823380, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,551 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499842880, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,553 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499822980, Period: 1, Config:0x10000000
+
+2018-04-13 15:19:36,553 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 15:19:36,553 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:26:32,656 [INFO]: PcieTimingNode.cpp: Time to shot: 149992135us; Shot time: 1523633342647000; Time Correction: 0
+2018-04-13 15:26:32,656 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 15:26:32,656 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523633192 sec 656639 usec
+HW Status REG 0x12
+
+2018-04-13 15:26:32,661 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499816350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,663 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474817350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,664 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499906350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,666 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499971350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,668 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500051350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,670 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499921350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,671 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499906350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,673 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499921350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,675 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499906350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,677 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499866350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,678 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499817350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,680 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499816360, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,682 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499817350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,684 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499816850, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,685 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499836350, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,687 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499816450, Period: 1, Config:0x10000000
+
+2018-04-13 15:26:32,687 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 15:26:32,687 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:37:53,645 [INFO]: PcieTimingNode.cpp: Time to shot: 149992430us; Shot time: 1523634023636000; Time Correction: 0
+2018-04-13 15:37:53,645 [INFO]: PcieTimingNode.cpp: Opening the device /dev/kx1_pcie_timing1
+2018-04-13 15:37:53,645 [INFO]: PcieTimingNode.cpp: gettimeofday()= 1523633873 sec 645329 usec
+HW Status REG 0x1b
+
+2018-04-13 15:37:53,650 [INFO]: PcieTimingNode.cpp: Starting configure channel 0, Delay: 1499819300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,651 [INFO]: PcieTimingNode.cpp: Starting configure channel 1, Delay: 1474820300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,653 [INFO]: PcieTimingNode.cpp: Starting configure channel 2, Delay: 1499909300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,655 [INFO]: PcieTimingNode.cpp: Starting configure channel 3, Delay: 1499974300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,657 [INFO]: PcieTimingNode.cpp: Starting configure channel 4, Delay: 1500054300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,658 [INFO]: PcieTimingNode.cpp: Starting configure channel 5, Delay: 1499924300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,660 [INFO]: PcieTimingNode.cpp: Starting configure channel 6, Delay: 1499909300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,662 [INFO]: PcieTimingNode.cpp: Starting configure channel 7, Delay: 1499924300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,664 [INFO]: PcieTimingNode.cpp: Starting configure channel 8, Delay: 1499909300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,665 [INFO]: PcieTimingNode.cpp: Starting configure channel 9, Delay: 1499869300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,667 [INFO]: PcieTimingNode.cpp: Starting configure channel 10, Delay: 1499820300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,669 [INFO]: PcieTimingNode.cpp: Starting configure channel 11, Delay: 1499819310, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,670 [INFO]: PcieTimingNode.cpp: Starting configure channel 12, Delay: 1499820300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,672 [INFO]: PcieTimingNode.cpp: Starting configure channel 13, Delay: 1499819800, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,674 [INFO]: PcieTimingNode.cpp: Starting configure channel 14, Delay: 1499839300, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,676 [INFO]: PcieTimingNode.cpp: Starting configure channel 15, Delay: 1499819400, Period: 1, Config:0x10000000
+
+2018-04-13 15:37:53,676 [INFO]: PcieTimingNode.cpp: Configure completed for hardware BOARD_1
+2018-04-13 15:37:53,676 [INFO]: PcieTimingNode.cpp: Configure  completed for node
+2018-04-13 15:47:21,138 [INFO]: FSNode.cpp: File found. Exiting

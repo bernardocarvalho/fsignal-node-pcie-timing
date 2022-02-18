@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware   uniqueID="HW_CPP_TEST_1">
+    <name xml:lang="en">Hardware 1 Test</name>
+    <description xml:lang="en">Hardware 1 Test</description>    
+    <field  uniqueID="AMPLITUDE"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Amplitude</name>
+        <name xml:lang="pt">Amplitue</name>
+        <description xml:lang="en">Amplitude</description>
+        <description xml:lang="pt">Amplitude</description>
+        <type>
+            <continuous primitive="float">
+                <min>-10</min>
+                <max>10</max>
+                <step>0.0001</step>  
+                <defaultValue>0</defaultValue>
+            </continuous>
+        </type>            
+	<extraInfo uniqueID="ioctl_magic" info="ATCA_TEST_IOCTL"/>
+    </field>
+    <field  uniqueID="FREQUENCY"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Frequency</name>
+        <name xml:lang="pt">Frequência</name>
+        <description xml:lang="en">Frequency</description>
+        <description xml:lang="pt">Frequência</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>100</max>
+                <step>1</step>  
+                <defaultValue>0</defaultValue>
+            </continuous>
+        </type>            
+	<extraInfo uniqueID="ioctl_magic" info="2"/>
+    </field>
+    <field  uniqueID="N_POINTS"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Number of points</name>
+        <name xml:lang="pt">Número de pontos</name>
+        <description xml:lang="en">Number of points</description>
+        <description xml:lang="pt">Número de pontos</description>
+        <type>
+            <continuous primitive="long">
+                <min>10</min>
+                <max>1000000000</max>
+                <step>1</step>  
+                <defaultValue>100</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="TBS"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Time between samples</name>
+        <name xml:lang="pt">Tempo entre amostras</name>
+        <description xml:lang="en">Time between samples [ms]</description>
+        <description xml:lang="pt">Tempo entre amostras [ms]</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>10</max>
+                <step>1</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <parameter  uniqueID="CHANNEL_1"
+                editable="true" 
+                mimeType="data/float_array">
+        <name xml:lang="en">Channel 1</name>
+        <name xml:lang="pt">Canal 1</name>
+        <description xml:lang="en">Channel 1</description>
+        <description xml:lang="pt">Canal 1</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_2"    
+                editable="true" 
+                mimeType="data/float_array">
+        <name xml:lang="en">Channel 2</name>
+        <name xml:lang="pt">Canal 2</name>
+        <description xml:lang="en">Channel 2</description>
+        <description xml:lang="pt">Canal 2</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_3"
+                editable="true" 
+                mimeType="data/float_array">
+        <name xml:lang="en">Channel 3</name>
+        <name xml:lang="pt">Canal 3</name>
+        <description xml:lang="en">Channel 3</description>
+        <description xml:lang="pt">Canal 3</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_4"
+                editable="true" 
+                mimeType="data/float_array">
+        <name xml:lang="en">Channel 4</name>
+        <name xml:lang="pt">Canal 4</name>
+        <description xml:lang="en">Channel 4</description>
+        <description xml:lang="pt">Canal 4</description>
+    </parameter> 
+</hardware>

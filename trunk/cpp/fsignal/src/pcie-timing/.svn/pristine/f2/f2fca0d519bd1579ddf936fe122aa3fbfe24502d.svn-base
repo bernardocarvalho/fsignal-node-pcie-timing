@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Hardware1.xml
+    Created on : September 26, 2017, 4:18 PM
+    Author     : andre / bbc
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware   uniqueID="BOARD_1">
+    <name xml:lang="en">Timing Board 1</name>
+    <description xml:lang="en">KX1 Timing Board 1</description>
+    <field  uniqueID="DELAY_TIME_10NS"
+        editable="true"
+        emptyAllowed="false"
+        hardwareField="no">
+        <name xml:lang="en">Trigger Delay (100 nsec)</name>
+        <description xml:lang="en">The channel trigger delay in 100 n-seconds units</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>4294967295</max>
+                <step>1</step>
+                <defaultValue>20000000</defaultValue>
+            </continuous>
+        </type>
+    </field>
+    <field  uniqueID="PERIOD_TIME_10NS"
+        editable="true"
+        emptyAllowed="false"
+        hardwareField="no">
+        <name xml:lang="en">Pulse Width (100 nsec)</name>
+        <description xml:lang="en">The Pulse period in 100 nano sec units</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>4294967295</max>
+                <step>1</step>
+                <defaultValue>10000</defaultValue>
+            </continuous>
+        </type>
+    </field>
+    <field  uniqueID="NUM_PULSES"
+        editable="true"
+        emptyAllowed="false"
+        hardwareField="no">
+        <name xml:lang="en">Number of Pulses in Pulse Train Mode</name>
+        <description xml:lang="en">The number of Pulses in Pulse Train Mode</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>33554432</max>
+                <step>1</step>
+                <defaultValue>1</defaultValue>
+            </continuous>
+        </type>
+    </field>
+    <field  uniqueID="CHANNEL_MODE"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="no">
+        <name xml:lang="en">Channel Mode</name>
+        <description xml:lang="en">The type of trigger to use</description>
+        <type>
+            <list>
+                <element>Reset</element>
+                <element>Trigger</element>
+                <element>Square</element>
+                <element>PulseTrain</element>
+                <defaultValue>Trigger</defaultValue>
+            </list>
+        </type>
+    </field>
+<!--    <field  uniqueID="CONFIG"
+        editable="true"
+        emptyAllowed="false"
+        hardwareField="no">
+        <name xml:lang="en">Config</name>
+        <description xml:lang="en">The channel config word</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>4294967295</max>
+                <step>1</step>
+                <defaultValue>0</defaultValue>
+            </continuous>
+        </type>
+    </field>
+-->
+    <parameter  uniqueID="CHANNEL_000"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 0</name>
+        <description xml:lang="en">Channel 0</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_001"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 1</name>
+        <description xml:lang="en">Channel 1</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_002"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 2</name>
+        <description xml:lang="en">Channel 2</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_003"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 3</name>
+        <description xml:lang="en">Channel 3</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_004"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 4</name>
+        <description xml:lang="en">Channel 4</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_005"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 5</name>
+        <description xml:lang="en">Channel 5</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_006"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 6</name>
+        <description xml:lang="en">Channel 6</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_007"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 7</name>
+        <description xml:lang="en">Channel 7</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_008"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 8</name>
+        <description xml:lang="en">Channel 8</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_009"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 9</name>
+        <description xml:lang="en">Channel 9</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_010"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 10</name>
+        <description xml:lang="en">Channel 10</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_011"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 11</name>
+        <description xml:lang="en">Channel 11</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_012"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 12</name>
+        <description xml:lang="en">Channel 12</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_013"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 13</name>
+        <description xml:lang="en">Channel 13</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_014"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 14</name>
+        <description xml:lang="en">Channel 14</description>
+    </parameter>
+    <parameter  uniqueID="CHANNEL_015"
+        editable="true"
+        mimeType="data/empty">
+        <name xml:lang="en">Channel 15</name>
+        <description xml:lang="en">Channel 15</description>
+    </parameter>
+</hardware>

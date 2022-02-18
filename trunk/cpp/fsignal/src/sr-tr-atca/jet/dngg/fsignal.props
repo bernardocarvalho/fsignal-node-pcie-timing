@@ -1,0 +1,48 @@
+#########################################################
+#							#
+#		FireSignal Node properties		#
+#							#
+#########################################################
+
+#Nameservice location
+ORBInitRef=NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+
+#max size allowed to transport in bytes
+#ORBgiopMaxMsgSize=1677721600
+ORBgiopMaxMsgSize=16777216
+
+#The id of the central server
+CServerID=CentralServerRegister
+
+#The location of the file that will exist when you want to terminate the program
+FileExitName=exit
+
+#Check for the above file every N seconds
+FileExitSleepCheck=10
+
+#The location of the dir where to store serialized data
+PersistDir=persist
+
+#The location of the node XML
+NodeXMLFileLoc=/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/xml/DNGNode.xml
+
+#The location of the hardware XML files, separated by commas
+HardwareXMLFilesLoc=/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/xml/Hardware1.xml
+#,/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/xml/Hardware2.xml
+#,/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/xml/Hardware3.xml,/opt/node/cpp/fsignal/src/sr-tr-atca/jet/dngg/xml/Hardware4.xml
+
+#The locale in which your xmls are writen
+XML_Locale=portuguese
+
+#The location of the extra lib
+ExtraLibLoc=/home/andre/test.jar
+
+#The location of the dev files. It must be on the same order of the HardwareXMLFilesLoc
+DevFileLocations=/dev/pcie0
+#,/dev/pcie1
+#,/dev/pcie2,/dev/pcie3
+
+#The maximum amount of bytes per cluster
+BufferSendSize=8388608
+
+#leave an empty final line

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary indentification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Node.dtd
+* <p>Title: FireSignal</p>
+ *
+ * <p>Description: FireSignal Control and Data Acquisition System</p>
+ *
+ * <p>Copyright: (C) Copyright 2005-2006, by Centro de Fusao Nuclear
+ *
+ * Project Info:  	http://www.cfn.ist.utl.pt
+ *
+ * This library is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2.1 of the License, or
+ * (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+ * License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this library; if not, write to the Free Software Foundation,
+ * Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.
+ *
+ * [Java is a trademark or registered trademark of Sun Microsystems, Inc.
+ * in the United States and other countries.]
+ * </p>
+ *
+ * <p>Company: CFN - EURATOM/IST- http://www.cfn.ist.utl.pt</p>
+ *
+ * @author Andre' Neto
+ * @version 1.0.0
+ *
+ */
+--><!--
+    An example how to use this DTD from your XML document:
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE node SYSTEM "Node.dtd">
+
+<node uniqueID="UNIQUEID_0">
+    <name xml:lang="en">bundled_key</name>
+    <name xml:lang="pt">bundled_key</name>
+    <description xml:lang="en">bundled_key</description>
+    <description xml:lang="pt">bundled_key</description>
+</node>
+-->
+<!---   
+        You must provide an uniqueID, a name and a description
+        of the node. In order to to keep
+        the platform internationalized from the beggining, add
+        names and descriptions in at least your native language and english...-->
+<!ELEMENT node (name+, description+)>
+<!ATTLIST node uniqueID ID #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name xml:lang CDATA #REQUIRED>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description xml:lang CDATA #REQUIRED>  

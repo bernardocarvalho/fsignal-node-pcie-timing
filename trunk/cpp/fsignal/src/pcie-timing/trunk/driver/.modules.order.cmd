@@ -1,0 +1,1 @@
+cmd_/home/oper/FSIGNAL/trunk/cpp/fsignal/src/pcie-timing/trunk/driver/modules.order := {   echo /home/oper/FSIGNAL/trunk/cpp/fsignal/src/pcie-timing/trunk/driver/kx1_pcie_timing.ko; :; } | awk '!x[$$0]++' - > /home/oper/FSIGNAL/trunk/cpp/fsignal/src/pcie-timing/trunk/driver/modules.order

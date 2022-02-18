@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE node SYSTEM "Node.dtd">
+
+<node uniqueID="CENTRAL_TEST_CPP">
+    <name xml:lang="en">Central test node</name>
+    <description xml:lang="en">This is a test node</description>
+</node>
+

@@ -1,0 +1,39 @@
+#########################################################
+#							#
+#		FireSignal Node properties		#
+#							#
+#########################################################
+
+#Nameservice location
+#ORBInitRef=NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+ORBInitRef=NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+
+#max size allowed to transport in bytes
+#ORBgiopMaxMsgSize=1677721600
+ORBgiopMaxMsgSize=16777216
+
+#The id of the central server
+CServerID=CentralServerRegister
+
+#The location of the file that will exist when you want to terminate the program
+FileExitName=exit
+
+#Check for the above file every N seconds
+FileExitSleepCheck=10
+
+#The location of the dir where to store serialized data
+PersistDir=persist
+
+#The location of the node XML
+NodeXMLFileLoc=xml/TestNode.xml
+
+#The location of the hardware XML files, separated by commas
+HardwareXMLFilesLoc=xml/Hardware1.xml,xml/Hardware2.xml
+
+#The locale in which your xmls are writen
+XML_Locale=en_US.UTF-8
+
+#The location of the extra lib
+ExtraLibLoc=/home/andre/test.jar
+
+#leave an empty final line

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary indentification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Node.dtd
+
+--><!--
+    An example how to use this DTD from your XML document:
+<?xml version="1.0" encoding="UTF-8"?>
+
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware uniqueID="default">
+    <name xml:lang="en">bundled_key</name>
+    <name xml:lang="pt">bundled_key</name>
+    <description xml:lang="en">bundled_key</description>
+    <description xml:lang="pt">bundled_key</description>
+
+    <field  uniqueID="default"                    
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">bundled_key</name>
+        <name xml:lang="pt">bundled_key</name>
+        <description xml:lang="en">bundled_key</description>
+        <description xml:lang="pt">bundled_key</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>20</max>
+                <step>1</step>  
+                <defaultValue>2</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="default2"
+            editable="false"
+            emptyAllowed="false"
+            units="us"
+            hardwareField="yes">
+        <name xml:lang="en">bundled_key</name>
+        <name xml:lang="pt">bundled_key</name>
+        <description xml:lang="en">bundled_key</description>
+        <description xml:lang="pt">bundled_key</description>
+        <type>
+            <list>
+                <element>1</element>
+                <element>2</element>
+                <element>3</element>
+                <defaultValue>2</defaultValue>
+            </list>
+        </type>            
+    </field>
+    <parameter  uniqueID="default2"
+                editable="false">
+        <name xml:lang="en">bundled_key</name>
+        <name xml:lang="pt">bundled_key</name>
+        <description xml:lang="en">bundled_key</description>
+        <description xml:lang="pt">bundled_key</description>
+    </parameter>        
+</hardware>
+-->
+
+<!---   The hardware info describes the hardware.
+        You must supply several fields with all the stuff
+        that one is allowed to configure in the hardware.
+        You must also give the parameters that exist for this hardware
+        The extraVisualPanel is an optional argument. The value is 
+        a java class that implements org.cfn.scad.core.xml.IExtraVisualPanel-->
+<!ELEMENT   hardware (name+, description+, field*, parameter*)>
+<!ATTLIST   hardware  uniqueID ID #REQUIRED
+            extraVisualPanel CDATA "">
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name xml:lang CDATA #REQUIRED>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description xml:lang CDATA #REQUIRED>            
+                                    
+<!---   This field allows to add extra info to a field -->
+<!ELEMENT extraInfo EMPTY>
+<!ATTLIST extraInfo uniqueID  CDATA #REQUIRED
+		    info CDATA #REQUIRED
+>
+<!---   The fields allow the main application to know what kind of values
+        a part of the hardware accepts.
+        UniqueID is a unique identifier of this field;
+        emptyAllowed true if a field can be empty (no value);
+        editable true if the value of the field can change;
+        units are the field physical SI units symbol;
+        hardwareField:
+            yes-> the value of this field is shared between all the parameters (ex: board number)
+            no-> the value of this field may be different for the existing parameters
+            partial-> the value of this field must be equal in the parameters selected by hardwareFieldParameterUID
+        unique true means that every parameter for this field in this hardware must have different values (for example a channel number)-->
+        
+<!ELEMENT field (name+, description+, hardwareFieldParameterUID*, type, extraInfo*)>
+<!ATTLIST field uniqueID CDATA #REQUIRED
+                emptyAllowed (true|false) "false"
+                editable (true|false) "false"
+                units CDATA ""
+                hardwareField (yes | no | partial) "no"
+                unique (true | false) "false"                
+>
+<!ELEMENT hardwareFieldParameterUID (#PCDATA)>
+<!---   Currently there are 5 different type of fields. The name is quite
+        obvious-->
+<!ELEMENT type (continuous|list|stringfield|file|otherParameters|custom)>
+
+<!---   Values that can change from a minimum to a maximum with a defined step-->
+<!ELEMENT continuous (min,max,step,defaultValue)>
+<!ATTLIST continuous primitive (byte|short|int|long|float|double) #REQUIRED>
+<!ELEMENT min (#PCDATA)>
+<!ELEMENT max (#PCDATA)>
+<!ELEMENT step (#PCDATA)>
+<!ELEMENT defaultValue (#PCDATA)>
+
+<!---   List of several elements-->
+<!ELEMENT list (element*,defaultValue)>
+<!ELEMENT element (#PCDATA)>
+
+<!---   The field takes as an input another parameter (like a trigger)
+        If the uniqueID is empty it will assume all the parameters in the hardwareUniqueID -->
+<!ELEMENT otherParameters (otherParameter*)>
+<!ELEMENT otherParameter EMPTY>
+<!ATTLIST otherParameter    uniqueID CDATA ""
+                            nodeUniqueID CDATA #REQUIRED
+                            hardwareUniqueID CDATA #REQUIRED
+>
+
+<!---   The field takes as an input a file-->
+<!ELEMENT file EMPTY>
+
+<!ATTLIST file  mimeType CDATA #REQUIRED
+                binary (true|false) "false"
+>
+
+<!---   The field takes as an input a string-->
+<!ELEMENT stringfield EMPTY>
+
+<!---   This field is given by a java class that implements org.cfn.scad.core.xml.IXMLFieldType -->
+<!ELEMENT custom EMPTY>
+<!ATTLIST custom class CDATA #REQUIRED                
+>
+
+
+<!---   All the parameters that exist in this hardware-->
+<!ELEMENT parameter (name+, description+, fieldNameToExclude*)>
+<!ATTLIST parameter uniqueID CDATA #REQUIRED                    
+                    editable (true|false) "false"
+                    units CDATA ""
+                    mimeType CDATA ""
+>
+<!ELEMENT fieldNameToExclude (#PCDATA)>

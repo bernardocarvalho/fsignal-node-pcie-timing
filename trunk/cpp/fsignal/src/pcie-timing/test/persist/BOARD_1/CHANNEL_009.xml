@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parameterconfig SYSTEM "ParameterConfig.dtd"><parameterconfig uniqueID="CHANNEL_009"><transferFunction function="" units=""/><field uniqueID="DELAY_TIME" value="-10"/><field uniqueID="DELAY_MULTIPLIER_UNIT" value="s"/><field uniqueID="PERIOD_TIME_100NS" value="10000000"/><field uniqueID="NUM_PULSES" value="10"/><field uniqueID="CHANNEL_MODE" value="PulseTrain"/><field uniqueID="CHANNEL_INVERT" value="NoInvert"/></parameterconfig>

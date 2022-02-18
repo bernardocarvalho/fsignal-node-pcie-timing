@@ -1,0 +1,14 @@
+01000008
+
+#define CLK_INT2 	0x0
+#define CLK_EXT1  	0x1
+#define CLK_EXT2  	0x2
+#define POL_TRIGP  	0x4
+#define TRIG_STOP    	0x8   // auto-stop after trigger
+#define STEAMING_ACQ    0x10   
+#define DEC8 		0x1000  // decimation 8
+#define DEC64 		0x2000  // decimation 64 
+
+
+FFFF0220
+

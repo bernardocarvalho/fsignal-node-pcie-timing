@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware   uniqueID="FPGA_2">
+    <name xml:lang="en">FPGA 2</name>
+    <description xml:lang="en">FPGA 2</description>
+    <field  uniqueID="ACQ_TYPE"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Acquisition type</name>
+        <description xml:lang="en">The module can acquire each acquisition channel separately or a programmable number of simultaneous channels per module block</description>
+        <type>
+            <list>
+                <element>Single</element>
+                <element>Interleaved</element>
+                <defaultValue>Single</defaultValue>
+            </list>
+        </type>
+    </field>    
+    <field  uniqueID="ILV_CHANNELS"
+            editable="true"
+            emptyAllowed="false"            
+            hardwareField="yes">
+        <name xml:lang="en">Interleaved channels</name>
+        <description xml:lang="en">The number of ADCs which are grouped together (1 is equivalent to single acquisition mode). This can be used only in interleaved mode</description>
+        <type>
+            <list>
+                <element>1</element>
+                <element>2</element>
+                <element>4</element>
+                <defaultValue>2</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="FREQUENCY"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Frequency</name>
+        <description xml:lang="en">The acquisition frequency in MHz</description>
+        <type>
+            <list>
+                <element>250</element>
+                <element>200</element>
+                <element>125</element>
+                <element>100</element>
+                <element>62.5</element>
+                <element>50</element>
+                <defaultValue>250</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="ACQ_MODE"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Acquisition mode</name>
+        <description xml:lang="en">Acquire raw or processed data</description>
+        <type>
+            <list>
+                <element>Raw</element>
+                <element>Processed</element>
+                <element>File</element>
+                <defaultValue>Processed</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="TRIGGER_TYPE"
+            editable="true"
+            emptyAllowed="false"            
+            hardwareField="yes">
+        <name xml:lang="en">Trigger type</name>
+        <description xml:lang="en">The type of trigger to use</description>
+        <type>
+            <list>
+                <element>Software</element>
+                <element>Hardware</element>
+                <defaultValue>Hardware</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="PRE_TRIGGER_DATA"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Pre trigger samples</name>
+        <description xml:lang="en">This specifies how many samples before the trigger occurrence are written to memory</description>
+        <type>
+            <continuous primitive="int">
+                <min>16</min>
+                <max>511</max>
+                <step>1</step>  
+                <defaultValue>16</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="PRE_TRIGGER_TIME"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Pre trigger time</name>
+        <description xml:lang="en">Programmable delay after trigger occurrence</description>
+        <type>
+            <continuous primitive="long">
+                <min>16</min>
+                <max>4294967296</max>
+                <step>1</step>  
+                <defaultValue>16</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="PROCESS_K"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Post process K</name>
+        <description xml:lang="en">Rise time of the trapezoidal shape given in number samples</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>15</max>
+                <step>1</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="PROCESS_L"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Post process L</name>
+        <description xml:lang="en">The duration of the flat top of the trapezoidal shape is equal to</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>15</max>
+                <step>1</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>        
+        </type>
+    </field>    
+    <field  uniqueID="PROCESS_M"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Post process L</name>
+        <description xml:lang="en">This parameter is the pole zero cancellation and depends only on the decay time constant of the exponential pulse and the sampling period, T, of the TRP-400 module.</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>65535</max>
+                <step>1</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="PROCESS_T"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Post process T</name>
+        <description xml:lang="en">Trigger level is a function of a discrete parameter (n).</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>15</max>
+                <step>1</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="DMA_BYTE_SIZE"
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">DMA byte bize</name>
+        <description xml:lang="en">The size of each DMA in bytes</description>
+        <type>
+            <continuous primitive="int">
+                <min>4</min>
+                <max>32767</max>
+                <step>1</step>  
+                <defaultValue>1024</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="DMA_N_BUFFS"
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">DMA number of buffers</name>
+        <description xml:lang="en">The number of DMA buffers to use</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>16</max>
+                <step>1</step>  
+                <defaultValue>16</defaultValue>
+            </continuous>        
+        </type>
+    </field>    
+    <field  uniqueID="BUFFER_READ_SIZE"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Buffer read size</name>
+        <description xml:lang="en">The size of the buffer for each read</description>
+        <type>
+            <continuous primitive="int">
+                <min>2048</min>
+                <max>20480</max>
+                <step>1</step>  
+                <defaultValue>2048</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="ACQ_BYTE_SIZE"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Maximum acquisition bytes</name>
+        <description xml:lang="en">Defines the size of maximum bytes which can be acquired into the DDR2</description>
+        <type>
+            <list>
+                <element>8192</element>
+                <element>16384</element>
+                <element>32768</element>
+                <element>65536</element>
+                <element>131072</element>
+                <element>262144</element>
+                <element>524288</element>
+                <element>1048576</element>
+                <element>2097152</element>
+                <element>4194304</element>
+                <element>8388608</element>
+                <element>16777216</element>
+                <element>33554432</element>
+                <element>67108864</element>
+                <element>134217728</element>
+                <element>268435456</element>
+                <element>536870912</element>
+                <element>1073741824</element>
+                <element>2147483648</element>
+                <defaultValue>67108864</defaultValue>
+            </list>
+        </type>
+    </field>    
+    <parameter  uniqueID="CHANNEL_1"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 1</name>
+        <description xml:lang="en">Channel 1</description>
+    </parameter> 
+<!--    <parameter  uniqueID="CHANNEL_2"    
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 2</name>
+        <description xml:lang="en">Channel 2</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_3"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 3</name>
+        <description xml:lang="en">Channel 3</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_4"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 4</name>
+        <description xml:lang="en">Channel 4</description>
+    </parameter> -->
+</hardware>

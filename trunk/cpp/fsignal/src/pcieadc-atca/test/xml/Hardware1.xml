@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : andre
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware   uniqueID="BOARD_1">
+    <name xml:lang="en">Board 1</name>
+    <description xml:lang="en">Board 1</description>
+    <field  uniqueID="FREQUENCY"
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Frequency</name>
+        <description xml:lang="en">The board acquisition frequency</description>
+        <type>
+            <continuous primitive="int">
+                <min>2000000</min>
+                <max>2000000</max>
+                <step>1</step>  
+                <defaultValue>2000000</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="CLOCK_SOURCE"
+            editable="true"
+            emptyAllowed="false"            
+            hardwareField="yes">
+        <name xml:lang="en">Clock Source</name>
+        <description xml:lang="en">Source of the acquisition clocks: ATCA shared or Local</description>
+        <type>
+            <list>
+                <element>Shared</element>
+                <element>Local</element>
+                <defaultValue>Shared</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="TRIGGER_SOURCE"
+            editable="true"
+            emptyAllowed="false"            
+            hardwareField="yes">
+        <name xml:lang="en">Trigger Source</name>
+        <description xml:lang="en">Source of the acquisition Trigger: ATCA shared or Local</description>
+        <type>
+            <list>
+                <element>Shared</element>
+                <element>Local</element>
+                <defaultValue>Shared</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="TRIGGER_TYPE"
+            editable="true"
+            emptyAllowed="false"            
+            hardwareField="yes">
+        <name xml:lang="en">Trigger type</name>
+        <description xml:lang="en">The type of trigger to use</description>
+        <type>
+            <list>
+                <element>Software</element>
+                <element>Hardware</element>
+                <defaultValue>Hardware</defaultValue>
+            </list>
+        </type>
+    </field>
+    <field  uniqueID="ACQ_TIME_MILLIS"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="no">
+        <name xml:lang="en">Acquisition time (ms)</name>
+        <description xml:lang="en">Defines the amount of data which will be transferred from the board for this channel</description>
+        <type>
+            <continuous primitive="double">
+                <min>0.5</min>
+                <max>2000</max>
+                <step>0.5</step>  
+                <defaultValue>1</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="DELAY_TIME_MILLIS"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Delay time (ms)</name>
+        <description xml:lang="en">Delay to the main event in milliseconds</description>
+        <type>
+            <continuous primitive="int">
+                <min>-100000</min>
+                <max>100000</max>
+                <step>1</step>  
+                <defaultValue>0</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="TRIGGER_DELAY_MILLIS"
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Trigger Delay (ms)</name>
+        <description xml:lang="en">Trigger Delay to acquisition milliseconds</description>
+        <type>
+            <continuous primitive="int">
+                <min>0</min>
+                <max>1000000</max>
+                <step>1</step>  
+                <defaultValue>0</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="MEM_SIZE"
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">On board memory size</name>
+        <description xml:lang="en">The amount of memory available on the board</description>
+        <type>
+            <continuous primitive="int">
+                <min>536870911</min>
+                <max>536870911</max>
+                <step>1</step>  
+                <defaultValue>536870911</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <field  uniqueID="DMA_BYTE_SIZE"
+            editable="false"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">DMA byte bize</name>
+        <description xml:lang="en">The size of each DMA in bytes</description>
+        <type>
+            <continuous primitive="int">
+                <min>4096</min>
+                <max>4096</max>
+                <step>1</step>  
+                <defaultValue>4096</defaultValue>
+            </continuous>        
+        </type>
+    </field>
+    <parameter  uniqueID="CHANNEL_001"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 1</name>
+        <description xml:lang="en">Channel 1</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_002"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 2</name>
+        <description xml:lang="en">Channel 2</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_003"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 3</name>
+        <description xml:lang="en">Channel 3</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_004"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 4</name>
+        <description xml:lang="en">Channel 4</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_005"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 5</name>
+        <description xml:lang="en">Channel 5</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_006"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 6</name>
+        <description xml:lang="en">Channel 6</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_007"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 7</name>
+        <description xml:lang="en">Channel 7</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_008"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 8</name>
+        <description xml:lang="en">Channel 8</description>
+    </parameter> 
+     <parameter  uniqueID="CHANNEL_009"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 9</name>
+        <description xml:lang="en">Channel 9</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_010"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 10</name>
+        <description xml:lang="en">Channel 10</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_011"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 11</name>
+        <description xml:lang="en">Channel 11</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_012"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 12</name>
+        <description xml:lang="en">Channel 12</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_013"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 13</name>
+        <description xml:lang="en">Channel 13</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_014"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 14</name>
+        <description xml:lang="en">Channel 14</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_015"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 15</name>
+        <description xml:lang="en">Channel 15</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_016"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 16</name>
+        <description xml:lang="en">Channel 16</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_017"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 17</name>
+        <description xml:lang="en">Channel 17</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_018"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 18</name>
+        <description xml:lang="en">Channel 18</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_019"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 19</name>
+        <description xml:lang="en">Channel 19</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_020"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 20</name>
+        <description xml:lang="en">Channel 20</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_021"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 21</name>
+        <description xml:lang="en">Channel 21</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_022"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 22</name>
+        <description xml:lang="en">Channel 22</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_023"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 23</name>
+        <description xml:lang="en">Channel 23</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_024"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 24</name>
+        <description xml:lang="en">Channel 24</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_025"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 25</name>
+        <description xml:lang="en">Channel 25</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_026"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 26</name>
+        <description xml:lang="en">Channel 26</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_027"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 27</name>
+        <description xml:lang="en">Channel 27</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_028"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 28</name>
+        <description xml:lang="en">Channel 28</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_029"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 29</name>
+        <description xml:lang="en">Channel 29</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_030"    
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 30</name>
+        <description xml:lang="en">Channel 30</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_031"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 31</name>
+        <description xml:lang="en">Channel 31</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_032"
+                editable="true" 
+                mimeType="data/int_array">
+        <name xml:lang="en">Channel 32</name>
+        <description xml:lang="en">Channel 32</description>
+    </parameter> 
+</hardware>

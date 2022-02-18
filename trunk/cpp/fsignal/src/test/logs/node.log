@@ -1,0 +1,344 @@
+2017-10-16 16:06:07,214 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-16 16:06:07,214 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-16 16:06:07,362 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-16 16:06:07,362 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-16 16:06:07,362 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-16 16:06:07,476 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-16 16:08:33,966 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-16 16:08:33,966 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-16 16:08:33,972 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-16 16:08:33,972 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-16 16:08:33,972 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-16 16:08:33,978 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 11:52:45,837 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 11:52:45,837 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 11:52:45,843 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 11:52:45,843 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 11:52:45,843 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 11:52:45,849 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 11:55:35,085 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 11:55:35,085 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 11:55:35,092 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 11:55:35,092 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 11:55:35,092 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 11:55:35,098 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 11:56:36,600 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 11:56:36,600 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 11:56:36,606 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 11:56:36,606 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 11:56:36,606 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 11:56:36,613 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 12:17:27,177 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 12:17:27,178 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 12:17:27,184 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 12:17:27,184 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 12:17:27,184 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 12:17:27,189 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 12:22:25,641 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 12:22:25,641 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 12:22:25,647 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 12:22:25,647 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 12:22:25,647 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 12:22:25,653 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 12:32:16,084 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 12:32:16,084 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 12:32:16,090 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 12:32:16,090 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 12:32:16,090 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 12:32:16,100 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 12:36:52,801 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 12:36:52,801 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 12:36:52,807 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 12:36:52,807 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 12:36:52,807 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 12:36:52,813 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 14:26:02,000 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 14:26:02,000 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 14:26:02,007 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 14:26:02,007 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 14:26:02,007 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 14:26:02,014 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2017-10-18 14:31:13,436 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 14:31:13,436 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 14:31:13,442 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 14:31:13,442 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 14:31:13,442 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 14:34:33,439 [INFO]: FSNode.cpp: File found. Exiting
+2017-10-18 14:34:44,465 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 14:34:44,465 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 14:34:44,471 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 14:34:44,471 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 14:34:44,471 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 14:35:24,466 [INFO]: FSNode.cpp: File found. Exiting
+2017-10-18 14:35:30,717 [INFO]: FSNode.cpp: Node is being constructed
+2017-10-18 14:35:30,717 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-10-18 14:35:30,723 [DEBUG]: FSNode.cpp: CORBA args:
+2017-10-18 14:35:30,723 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-10-18 14:35:30,723 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-10-18 14:35:38,266 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-10-18 14:35:38,272 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-10-18 14:35:38,281 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-10-18 14:35:38,287 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-10-18 14:35:38,293 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-10-18 14:35:38,298 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-10-18 14:35:38,305 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-10-18 14:35:38,311 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-10-18 14:35:53,756 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-10-18 14:35:53,761 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-10-18 14:35:53,767 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-10-18 14:35:53,773 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-10-18 14:35:53,780 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-10-18 14:35:53,786 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-10-18 14:35:53,793 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-10-18 14:35:53,799 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-10-18 14:40:00,721 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-10 16:06:32,970 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-10 16:06:32,981 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-10 16:06:33,018 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-10 16:06:33,018 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-10 16:06:33,018 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-10 16:06:45,206 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:06:45,212 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:06:45,219 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:06:45,225 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:06:45,231 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:06:45,236 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:06:45,243 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:06:45,249 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:09,717 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:07:09,725 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:07:09,731 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:07:09,737 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:09,743 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:07:09,748 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:07:09,755 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:07:09,762 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:32,982 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-10 16:15:09,495 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-10 16:15:09,496 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-10 16:15:09,502 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-10 16:15:09,502 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-10 16:15:09,502 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-10 16:21:10,321 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:21:10,335 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:21:10,345 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:21:10,352 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:21:10,359 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:21:10,366 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:21:10,373 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:21:10,385 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:22:04,521 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:22:04,528 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:22:04,536 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:22:04,542 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:22:04,548 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:22:04,554 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:22:04,560 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:22:04,567 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:27:14,163 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:27:14,169 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:27:14,176 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:27:14,181 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:27:14,187 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:27:14,194 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:27:14,202 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:27:14,208 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:38:00,564 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:38:00,593 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:38:00,607 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:38:00,617 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:38:00,626 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:38:00,633 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:38:00,639 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:38:00,645 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 10:49:08,385 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 10:49:08,390 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 10:49:08,436 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 10:49:08,436 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 10:49:08,436 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 10:50:21,202 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:03:44,212 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 11:03:44,213 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 11:03:44,226 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 11:03:44,226 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 11:03:44,226 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 11:04:23,190 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:08:52,033 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 11:08:52,033 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 11:08:52,039 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 11:08:52,039 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 11:08:52,039 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 11:09:06,495 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:09:06,502 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:09:06,508 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:09:06,515 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:09:06,522 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:09:06,528 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:09:06,534 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:09:06,542 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:09:52,034 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-08 11:10:45,976 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 11:10:45,976 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 11:10:45,982 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 11:10:45,982 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 11:10:45,982 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 11:10:52,974 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:10:52,983 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:10:52,990 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:10:52,996 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:10:53,002 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:10:53,008 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:10:53,015 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:10:53,021 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:12:45,978 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-08 11:14:17,315 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 11:14:17,315 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 11:14:17,321 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 11:14:17,321 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 11:14:17,321 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 11:14:36,826 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:14:36,832 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:14:36,838 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:14:36,845 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:14:36,851 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_1
+2018-01-08 11:14:36,857 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_2
+2018-01-08 11:14:36,863 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_3
+2018-01-08 11:14:36,869 [INFO]: TestNode.cpp: Starting acquisition for CHANNEL_4
+2018-01-08 11:45:37,343 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-08 14:49:12,413 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 14:49:12,413 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 14:49:12,419 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 14:49:12,419 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 14:49:12,419 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 14:49:42,413 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-08 15:09:39,096 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-08 15:09:39,096 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-08 15:09:39,102 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-08 15:09:39,102 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-08 15:09:39,102 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-08 15:09:49,096 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 15:30:00,734 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 15:30:00,734 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 15:30:00,741 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 15:30:00,741 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 15:30:00,741 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 15:31:00,735 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 15:33:57,284 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 15:33:57,284 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 15:33:57,290 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 15:33:57,290 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 15:33:57,290 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 15:34:27,284 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 16:12:00,598 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 16:12:00,598 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 16:12:00,610 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 16:12:00,610 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 16:12:00,610 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 16:12:20,598 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 16:16:16,853 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 16:16:16,853 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 16:16:16,859 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 16:16:16,859 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 16:16:16,859 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 16:16:36,853 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 16:17:33,668 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 16:17:33,669 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 16:17:33,675 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 16:17:33,675 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 16:17:33,675 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 16:18:03,669 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 16:47:57,703 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 16:47:57,703 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 16:47:57,709 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 16:47:57,709 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 16:47:57,709 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 16:48:07,703 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 17:02:20,829 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 17:02:20,829 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 17:02:20,835 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 17:02:20,835 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 17:02:20,835 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 17:02:40,830 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 17:42:42,795 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 17:42:42,795 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 17:42:42,801 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 17:42:42,801 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 17:42:42,801 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 17:42:52,795 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 17:57:51,723 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 17:57:51,723 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 17:57:51,729 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 17:57:51,729 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 17:57:51,729 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-12 17:58:11,723 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-12 12:58:36,461 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-12 12:58:36,461 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-12 12:58:36,467 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-12 12:58:36,467 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-12 12:58:36,467 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 12:17:23,991 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 12:17:23,992 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 12:17:23,998 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 12:17:23,998 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 12:17:23,998 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 07:17:59,807 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-15 17:42:31,093 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 17:42:31,093 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 17:42:31,099 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 17:42:31,099 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 17:42:31,099 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 17:42:31,122 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2018-01-15 17:44:19,961 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 17:44:19,961 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 17:44:19,967 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 17:44:19,967 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 17:44:19,967 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 17:44:19,978 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2018-01-15 17:51:54,114 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 17:51:54,114 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 17:51:54,120 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 17:51:54,120 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 17:51:54,120 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 17:53:15,259 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 17:53:15,259 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 17:53:15,266 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 17:53:15,266 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 17:53:15,266 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 17:53:33,707 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-15 17:53:33,707 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-15 17:53:33,714 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-15 17:53:33,714 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-15 17:53:33,714 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-15 17:53:33,728 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2018-01-15 17:53:54,199 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-15 17:53:55,260 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-16 04:39:00,824 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-16 04:39:00,824 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-16 04:39:00,830 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-16 04:39:00,830 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-16 04:39:00,830 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-16 04:39:00,845 [FATAL]: FSNode.cpp: Caught omniORB::SystemException:UNKNOWN
+2018-01-16 04:51:42,862 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-16 04:51:42,862 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-16 04:51:42,868 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-16 04:51:42,868 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-01-16 04:51:42,868 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-16 04:52:02,862 [INFO]: FSNode.cpp: File found. Exiting
+2018-01-16 04:53:49,545 [INFO]: FSNode.cpp: Node is being constructed
+2018-01-16 04:53:49,545 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-01-16 04:53:49,551 [DEBUG]: FSNode.cpp: CORBA args:
+2018-01-16 04:53:49,551 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+2018-01-16 04:53:49,551 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-01-16 04:54:09,545 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-04 15:14:01,843 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-04 15:14:01,844 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-04 15:14:01,850 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-04 15:14:01,850 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-04 15:14:01,850 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-04 15:20:11,849 [INFO]: FSNode.cpp: File found. Exiting
+2018-04-04 17:51:34,860 [INFO]: FSNode.cpp: Node is being constructed
+2018-04-04 17:51:34,860 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2018-04-04 17:51:34,866 [DEBUG]: FSNode.cpp: CORBA args:
+2018-04-04 17:51:34,866 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2018-04-04 17:51:34,866 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2018-04-04 17:55:44,863 [INFO]: FSNode.cpp: File found. Exiting

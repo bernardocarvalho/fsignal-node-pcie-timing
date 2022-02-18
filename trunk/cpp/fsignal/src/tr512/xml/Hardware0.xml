@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Node.xml
+    Created on : September 26, 2005, 4:18 PM
+    Author     : bernardo
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE hardware SYSTEM "Hardware.dtd">
+
+<hardware   uniqueID="HW_CPP_TR512_0">
+    <name xml:lang="en">Hardware Tr512 0</name>
+    <description xml:lang="en">Hardware Tr512 1</description>    
+    <field  uniqueID="DEVICE_NAME"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Device Name</name>
+        <name xml:lang="pt">Device Name</name>
+        <description xml:lang="en">Linux Device Name</description>
+        <description xml:lang="pt">Linux Device Name</description>
+        <type>
+            <stringfield></stringfield>
+       </type>            
+    </field>
+    <field  uniqueID="TRIGGER_POL" 
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+	<name xml:lang="en">Trigger</name>
+	<name xml:lang="pt">Trigger</name>
+	<description xml:lang="en">Trigger Polarity- 0:up->down,
+- 1:down->up</description>
+	<description xml:lang="pt">Polaridade do 'Trigger'- 0:up->down,
+- 1:down->up</description>
+	<type>
+            <list>
+                <element>0</element>
+                <element>1</element>
+                <element>2</element>
+                <defaultValue>0</defaultValue>
+            </list>
+	</type>
+    </field>
+    <field  uniqueID="CLOCK"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes" unique="true" units="MHz">
+        <name xml:lang="en">Clock</name>
+        <name xml:lang="pt">Clock</name>
+        <description xml:lang="en">Clock Frequency</description>
+        <description xml:lang="pt">Frequencia de Clock</description>
+        <type>
+            <list>
+                <element>0</element>
+                <element>1</element>
+                <element>2</element>
+                <defaultValue>2</defaultValue>
+            </list>
+        </type>            
+    </field>
+    <field  uniqueID="DECIMATION"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes" unique="true" units="MHz">
+        <name xml:lang="en">Decimation</name>
+        <name xml:lang="pt">Decimacao</name>
+        <description xml:lang="en">Decimation Factor</description>
+        <description xml:lang="pt">Factor de Decimacao</description>
+        <type>
+            <list>
+                <element>1</element>
+                <element>8</element>
+                <element>64</element>
+                <defaultValue>1</defaultValue>
+            </list>
+        </type>            
+    </field>
+    <field  uniqueID="N_SAMPLES"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes">
+        <name xml:lang="en">Number of samples</name>
+        <name xml:lang="pt">Numero de amostras</name>
+        <description xml:lang="en">Number of samples</description>
+        <description xml:lang="pt">Numero de amostras</description>
+        <type>
+            <continuous primitive="int">
+                <min>4096</min>
+                <max>2097152</max>
+                <step>256</step>  
+                <defaultValue>8192</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="READ_TIMOUT"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="yes" units="sec">
+        <name xml:lang="en">Read Timout</name>
+        <name xml:lang="pt">Timout de Leitura </name>
+        <description xml:lang="en">Maximum wait Time for Data/Event</description>
+        <description xml:lang="pt">Tempo maximo de espera de Dados/Evento</description>
+        <type>
+            <continuous primitive="int">
+                <min>1</min>
+                <max>3600</max>
+                <step>1</step>  
+                <defaultValue>30</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="TRIGGER_DELAY"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="no" >
+        <name xml:lang="en">Trigger Delay</name>
+        <name xml:lang="pt">Atraso de Trigger</name>
+        <description xml:lang="en">Delay from TSHOT</description>
+        <description xml:lang="pt">Atraso sobre TSHOT</description>
+        <type>
+            <continuous primitive="int">
+                <min>-30000</min>
+                <max>30000</max>
+                <step>1</step>  
+                <defaultValue>0</defaultValue>
+            </continuous>
+        </type>            
+    </field>
+    <field  uniqueID="AMPLITUDE"                    
+            editable="true"
+            emptyAllowed="false"
+            hardwareField="no" units="V">
+        <name xml:lang="en">Amplitude</name>
+        <name xml:lang="pt">Amplitude</name>
+        <description xml:lang="en">Amplitude (Bipolar)</description>
+        <description xml:lang="pt">Amplitude (Bipolar)</description>
+        <type>
+            <list>
+                <element>0.5</element>
+                <element>2.0</element>
+                <element>2.5</element>
+                <element>5.0</element>
+                <element>10.0</element>
+                <defaultValue>10.0</defaultValue>
+            </list>
+        </type>            
+    </field>
+    <parameter  uniqueID="CHANNEL_0"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 0</name>
+        <name xml:lang="pt">Canal 0</name>
+        <description xml:lang="en">Current</description>
+        <description xml:lang="pt">Corrente</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_1"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 1</name>
+        <name xml:lang="pt">Canal 1</name>
+        <description xml:lang="en">Channel 1</description>
+        <description xml:lang="pt">Canal 1</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_2"    
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 2</name>
+        <name xml:lang="pt">Canal 2</name>
+        <description xml:lang="en">Channel 2</description>
+        <description xml:lang="pt">Canal 2</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_3"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 3</name>
+        <name xml:lang="pt">Canal 3</name>
+        <description xml:lang="en">Channel 3</description>
+        <description xml:lang="pt">Canal 3</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_4"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 4</name>
+        <name xml:lang="pt">Canal 4</name>
+        <description xml:lang="en">Channel 4</description>
+        <description xml:lang="pt">Canal 4</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_5"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 5</name>
+        <name xml:lang="pt">Canal 5</name>
+        <description xml:lang="en">Channel 5</description>
+        <description xml:lang="pt">Canal 5</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_6"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 6</name>
+        <name xml:lang="pt">Canal 6</name>
+        <description xml:lang="en">Channel 6 data</description>
+        <description xml:lang="pt">Canal 6 data</description>
+    </parameter> 
+    <parameter  uniqueID="CHANNEL_7"
+                editable="true" 
+                mimeType="data/short_array">
+        <name xml:lang="en">Channel 7</name>
+        <name xml:lang="pt">Canal 7</name>
+        <description xml:lang="en">Channel data</description>
+        <description xml:lang="pt">Canal data</description>
+    </parameter> 
+</hardware>

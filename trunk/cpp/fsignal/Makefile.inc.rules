@@ -1,0 +1,31 @@
+
+$(BUILD_DIR)/%.o : %.cpp
+	echo "  (C++) $@"
+	$(COMPILER) -c $(INCLUDES) $(OPTIM) $(CFLAGS) $(DEBUG) $*.cpp -o $(BUILD_DIR)/$*.o
+
+$(BUILD_DIR)/%.o : %.cc
+	echo "  (C++) $@"
+	$(COMPILER) -c $(INCLUDES) $(OPTIM) $(CFLAGS) $(DEBUG) $*.cc -o $(BUILD_DIR)/$*.o
+
+$(BUILD_DIR)/%.a : $(OBJS)
+	echo "  (LD) $@"
+	touch $@
+	rm $(BUILD_DIR)/$*.a
+	ld -r $(OBJS) -o $@
+
+$(BUILD_DIR)/%.so : $(STATIC_LIBS)
+	echo "  (LD SHARED) $@"
+	$(COMPILER) -shared $(LIBRARIES) $(STATIC_LIBS) -o $@
+	ln -fns $*.so $(BUILD_DIR)/lib$*.so
+
+$(BUILD_DIR)/%.ex : $(BUILD_DIR)/%.o $(OBJS)
+	echo "  (EX) $@"
+	touch $(BUILD_DIR)/$*.ex
+	$(COMPILER) $(BUILD_DIR)/$*.o $(OBJS) $(OPTIM) $(CFLAGS) $(DEBUG) $(LIBRARIES) -o $(BUILD_DIR)/$*.ex
+
+depends.h:
+	$(COMPILER) $(CFLAGS) $(DEBUG) $(OPTIM) -MM -I. *.cpp > depends.h
+
+clean:
+	rm -f $(BUILD_DIR)/*
+

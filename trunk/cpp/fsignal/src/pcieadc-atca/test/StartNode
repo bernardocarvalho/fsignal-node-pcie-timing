@@ -1,0 +1,8 @@
+TEST_NODE=/home/ipfnist/code/node16bit/src/pcieadc-atca/test
+FS_CPP_BUILD=/home/ipfnist/code/node16bit/src/build/
+
+cd $TEST_NODE
+export LD_LIBRARY_PATH=$FS_CPP_BUILD
+./build/TestNodeMain.ex fsignal.props log.config.props.file &
+cd -
+

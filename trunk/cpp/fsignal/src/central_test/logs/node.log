@@ -1,0 +1,156 @@
+2017-11-03 16:38:08,948 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-03 16:38:08,948 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-03 16:38:08,954 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-03 16:38:08,954 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-03 16:38:08,954 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-03 16:38:38,949 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-03 16:58:48,445 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-03 16:58:48,445 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-03 16:58:48,452 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-03 16:58:48,452 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-03 16:58:48,452 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-03 16:59:08,446 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-06 11:23:45,441 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-06 11:23:45,441 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-06 11:23:45,448 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-06 11:23:45,448 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-06 11:23:45,448 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-06 11:24:07,026 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:24:12,037 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:24:17,049 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:24:22,060 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:24:27,072 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:24:32,084 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:24:37,095 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:24:42,106 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:27:05,444 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-06 11:45:37,581 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-06 11:45:37,581 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-06 11:45:37,587 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-06 11:45:37,587 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-06 11:45:37,587 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-06 11:46:27,716 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:46:27,726 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:46:27,733 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:46:27,739 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:46:27,744 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:46:27,751 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:46:27,756 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:46:27,762 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:49:51,336 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:49:51,346 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:49:51,352 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:49:51,358 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:49:51,363 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:49:51,369 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:49:51,375 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:49:51,382 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:50:07,585 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-06 11:50:11,627 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-06 11:50:11,627 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-06 11:50:11,633 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-06 11:50:11,633 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-06 11:50:11,633 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-06 11:50:28,784 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:50:28,794 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:50:28,800 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:50:28,806 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:50:31,812 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:50:31,822 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:50:31,828 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:50:31,833 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:50:51,628 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-06 11:52:07,081 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-06 11:52:07,081 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-06 11:52:07,087 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-06 11:52:07,087 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-06 11:52:07,087 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-06 11:52:36,346 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:52:36,356 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:52:36,362 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:52:36,368 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-06 11:52:39,375 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-06 11:52:39,385 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-06 11:52:39,391 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-06 11:52:39,398 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 15:22:21,751 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-10 15:22:21,762 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-10 15:22:21,999 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-10 15:22:21,999 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-10 15:22:21,999 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-10 15:22:58,347 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 15:22:58,356 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 15:22:58,364 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 15:22:58,371 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 15:23:01,379 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 15:23:01,390 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 15:23:01,396 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 15:23:01,403 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 15:23:21,763 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-10 16:03:05,672 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-10 16:03:05,672 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-10 16:03:05,678 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-10 16:03:05,679 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-10 16:03:05,679 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-10 16:03:22,727 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:03:22,736 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:03:22,743 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:03:22,749 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:03:25,755 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:03:25,765 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:03:25,770 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:03:25,777 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:06:48,202 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:06:48,220 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:06:48,229 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:06:48,235 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:06:51,242 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:06:51,252 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:06:51,258 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:06:51,264 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:12,716 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:07:12,726 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:07:12,732 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:07:12,738 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:15,745 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:07:15,755 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:07:15,760 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:07:15,766 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:07:45,676 [INFO]: FSNode.cpp: File found. Exiting
+2017-11-10 16:15:03,132 [INFO]: FSNode.cpp: Node is being constructed
+2017-11-10 16:15:03,132 [INFO]: FSNode.cpp: Going to be looking for the file in: exit
+2017-11-10 16:15:03,138 [DEBUG]: FSNode.cpp: CORBA args:
+2017-11-10 16:15:03,138 [DEBUG]: FSNode.cpp: -ORBInitRef NameService=corbaloc:iiop:1.2@localhost:1050/NameService
+2017-11-10 16:15:03,138 [DEBUG]: FSNode.cpp: -ORBgiopMaxMsgSize 16777216
+2017-11-10 16:21:13,315 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:21:13,325 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:21:13,331 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:21:13,337 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:21:16,343 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:21:16,370 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:21:16,381 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:21:16,387 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:22:07,520 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:22:07,530 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:22:07,536 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:22:07,542 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:22:10,551 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:22:10,578 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:22:10,595 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:22:10,604 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:27:17,162 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:27:17,189 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:27:17,202 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:27:17,208 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:27:20,216 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:27:20,230 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:27:20,241 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:27:20,250 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:38:03,562 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:38:03,572 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:38:03,577 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:38:03,583 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4
+2017-11-10 16:38:06,590 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_1
+2017-11-10 16:38:06,600 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_2
+2017-11-10 16:38:06,606 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_3
+2017-11-10 16:38:06,612 [INFO]: CentralTestNode.cpp: Starting acquisition for CHANNEL_4

@@ -1,0 +1,8 @@
+KM6S_NODE=/home/jet/km6s-1.00/node/cpp/fsignal/src/sr-tr-atca/jet/km6s/
+FS_CPP_BUILD=/home/jet/km6s-1.00/node/cpp/fsignal/src/build/
+
+cd $KM6S_NODE
+export LD_LIBRARY_PATH=$FS_CPP_BUILD
+./build/KM6SNodeMain.ex fsignal.props log.config.props.file&
+cd -
+

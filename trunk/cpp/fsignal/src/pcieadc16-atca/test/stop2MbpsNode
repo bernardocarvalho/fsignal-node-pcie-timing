@@ -1,0 +1,5 @@
+TEST_NODE=/home/ipfnist/code/node16bit/src/pcieadc16-atca/test
+
+cd $TEST_NODE
+touch exit
+cd -

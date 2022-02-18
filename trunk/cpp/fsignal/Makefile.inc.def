@@ -1,0 +1,12 @@
+COMPILER=g++
+
+LIBRARIES=-lomniORB4 -lomniDynamic4 -lomnithread -lpthread -lm -lxerces-c -llog4cxx
+
+CFLAGS = -fPIC -frtti -g -Wall
+
+BUILD_DIR=build
+
+OBJS=$(OBJSX:%.x=$(BUILD_DIR)/%.o)
+
+INCLUDES=-I./ 
+
