@@ -1,1 +1,0 @@
-KERNEL=="kx1_pcie*", MODE="0666"
