@@ -1,0 +1,17 @@
+#!/bin/sh
+# Launch pcie-timing node
+# To shutdown do this in this folder:
+# touch exit
+# to run JT Logger goto ~/FSIGNAL and run 
+# launch-jt-logger.sh
+#
+FSIGNAL_HOME=$HOME/FSIGNAL/fsignal-node-pcie-timing/trunk/cpp/fsignal
+TIMING_NODE=$FSIGNAL_HOME/src/pcie-timing/node
+FS_CPP_BUILD=$FSIGNAL_HOME/src/build/
+
+cd $TIMING_NODE
+export LD_LIBRARY_PATH=$FS_CPP_BUILD
+echo $LD_LIBRARY_PATH
+./build/PcieTimingNodeMain.ex fsignal.props log.config.props.file &
+cd -
+

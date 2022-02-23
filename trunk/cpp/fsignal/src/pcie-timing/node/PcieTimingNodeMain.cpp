@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2017 by Andre Neto / B. Carvalho  *
- *   andre.neto@ipfn.ist.utl.pt   *
+ *   Copyright (C) 2017 by Andre Neto / B. Carvalho                        *
+ *   andre.neto@ipfn.ist.utl.pt                                            *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
