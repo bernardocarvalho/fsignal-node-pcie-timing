@@ -6,7 +6,8 @@
 
 #Nameservice location
 #ORBInitRef=NameService=corbaloc:iiop:1.2@localhost:1050/NameService
-ORBInitRef=NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+#ORBInitRef=NameService=corbaloc:iiop:1.2@baco.ipfn.ist.utl.pt:1050/NameService
+ORBInitRef=NameService=corbaloc:iiop:1.2@193.136.136.129:1050/NameService
 
 #max size allowed to transport in bytes
 #ORBgiopMaxMsgSize=1677721600
