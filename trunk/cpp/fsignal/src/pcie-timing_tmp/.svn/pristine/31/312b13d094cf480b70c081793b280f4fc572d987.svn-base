@@ -1,8 +1,0 @@
-TEST_NODE=/home/oper/FSIGNAL/trunk/cpp/fsignal/src/pcie-timing/test
-FS_CPP_BUILD=/home/oper/FSIGNAL/trunk/cpp/fsignal/src/build/
-
-cd $TEST_NODE
-export LD_LIBRARY_PATH=$FS_CPP_BUILD
-./build/PcieTimingNodeMain.ex fsignal.props log.config.props.file &
-cd -
-
