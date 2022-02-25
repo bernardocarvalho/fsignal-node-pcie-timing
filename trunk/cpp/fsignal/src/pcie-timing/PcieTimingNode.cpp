@@ -32,9 +32,9 @@
 #include <vector>
 //#include <map>
 //#include <string>
-//#include <iostream>
-//#include <cmath>
-//#include <pthread.h>
+#include <iostream>
+#include <cmath>
+#include <pthread.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <stdlib.h>
@@ -48,8 +48,9 @@
 #include "TimeStampWrapper.h"
 #include "EventWrapper.h"
 #include "FSignalUtils.h"
-//#include "trunk/include/kx1-pcie-timing.h"
 #include "trunk/include/kx1-pcie-timing-ioctl.h"
+
+#include "cadef.h"
 
 using namespace std;
 using namespace fsignal;
@@ -210,6 +211,7 @@ void *PcieTimingNode::dataProducer(void* args) {
     int                       ret         = 0;
     unsigned int              uval;
 
+    chid        vvesselid;
     TIMING_CHANNEL tRegs;
 
     for(int i=0; i<node->nhardware; i++){
@@ -426,6 +428,8 @@ void *PcieTimingNode::dataProducer(void* args) {
             close(fd[i]);
             fd[i] = 0;
         }
+        SEVCHK(ca_context_create(ca_disable_preemptive_callback),"ca_context_create");
+        SEVCHK(ca_create_channel("bbc",NULL,NULL,10,&vvesselid),"ca_create_channel failure");
 
         LOG4CXX_INFO(Utils::getLogger(), "Configure  completed for node");
     }

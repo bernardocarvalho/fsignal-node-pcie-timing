@@ -14,5 +14,6 @@ INCLUDES+=-I../../orb
 INCLUDES+=-I../../include/
 
 LIBRARIES+=-L../../build/ -lfsignal ../build/PcieTimingNode.a
+LIBRARIES+=-L/home/oper/EPICS/epics-base/lib/linux-x86_64 -lca 
 
 include ../../../Makefile.inc.rules
