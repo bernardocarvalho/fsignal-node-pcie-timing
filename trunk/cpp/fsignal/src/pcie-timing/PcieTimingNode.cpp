@@ -64,6 +64,8 @@ struct DataProducerInit
 };
 
 const string PcieTimingNode::DEV_FILE_LOCATIONS_ID = "DevFileLocations";
+const char * PcieTimingNode::PV_VVESSEL_TEMP = "ISTTOK:temperature:VVessel-Temperature";
+
 //const string PcieTimingNode::FS_BUFFER_SEND_SIZE = "BufferSendSize";
 
 PcieTimingNode::PcieTimingNode (const char *propsLoc, wstring mainEventID, const char *logFileLoc):
@@ -211,7 +213,7 @@ void *PcieTimingNode::dataProducer(void* args) {
     int                       ret         = 0;
     unsigned int              uval;
 
-    chid        vvesselid;
+    chid        vvessel_id; // epics temperature PC */
     TIMING_CHANNEL tRegs;
 
     for(int i=0; i<node->nhardware; i++){
@@ -429,7 +431,10 @@ void *PcieTimingNode::dataProducer(void* args) {
             fd[i] = 0;
         }
         SEVCHK(ca_context_create(ca_disable_preemptive_callback),"ca_context_create");
-        SEVCHK(ca_create_channel("bbc",NULL,NULL,10,&vvesselid),"ca_create_channel failure");
+        SEVCHK(ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&vvessel_id),"ca_create_channel failure");
+        SEVCHK(ca_pend_io(5.0),"ca_pend_io failure");
+        SEVCHK(ca_put(DBR_STRING, vvessel_id, "180"), "Put failed");
+        ca_flush_io();
 
         LOG4CXX_INFO(Utils::getLogger(), "Configure  completed for node");
     }

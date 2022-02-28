@@ -10,7 +10,7 @@ TIMING_NODE=$FSIGNAL_HOME/src/pcie-timing/node
 FS_CPP_BUILD=$FSIGNAL_HOME/src/build/
 
 cd $TIMING_NODE
-export LD_LIBRARY_PATH=$FS_CPP_BUILD
+export LD_LIBRARY_PATH=$FS_CPP_BUILD:/home/oper/EPICS/epics-base/lib/linux-x86_64
 echo $LD_LIBRARY_PATH
 ./build/PcieTimingNodeMain.ex fsignal.props log.config.props.file &
 cd -

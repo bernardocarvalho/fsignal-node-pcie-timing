@@ -49,14 +49,16 @@ namespace fsignal {
         EventSem                                     evtSem;
         org::cfn::scad::core::corba::hardware::Event mainEvent;
         std::wstring                                 mainEventID;
-        int                                          nparameters;
+        //int                                          nparameters;
         int                                          nhardware;
         std::stringstream                            logStream;
         bool                                         aborted;
         static const std::string                     DEV_FILE_LOCATIONS_ID;
         //when this number of read bytes is read. New data is sent
         static const std::string                     FS_BUFFER_SEND_SIZE;
-        unsigned int                                 bufferSendSize;
+        //static const std::string                     PV_VVESSEL_TEMP;
+        static const char *                      PV_VVESSEL_TEMP;
+        //unsigned int                                 bufferSendSize;
         //The location of the char devices for each hardware
         std::vector<std::string>                     devIds;
         //mktime seem to be influenced by CORBA.
