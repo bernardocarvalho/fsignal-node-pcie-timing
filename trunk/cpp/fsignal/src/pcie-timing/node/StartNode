@@ -8,6 +8,8 @@
 FSIGNAL_HOME=$HOME/FSIGNAL/fsignal-node-pcie-timing/trunk/cpp/fsignal
 TIMING_NODE=$FSIGNAL_HOME/src/pcie-timing/node
 FS_CPP_BUILD=$FSIGNAL_HOME/src/build/
+export EPICS_CA_ADDR_LIST='192.168.1.110 192.168.1.120 192.168.1.152'
+export EPICS_CA_AUTO_ADDR_LIST=NO
 
 cd $TIMING_NODE
 export LD_LIBRARY_PATH=$FS_CPP_BUILD:/home/oper/EPICS/epics-base/lib/linux-x86_64

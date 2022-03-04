@@ -50,7 +50,6 @@
 #include "FSignalUtils.h"
 #include "trunk/include/kx1-pcie-timing-ioctl.h"
 
-#include "cadef.h"
 
 using namespace std;
 using namespace fsignal;
@@ -61,10 +60,12 @@ struct DataProducerInit
 {
     PcieTimingNode *node;
     FSHardware *hardware;
+    chid      * pv_id;
 };
 
 const string PcieTimingNode::DEV_FILE_LOCATIONS_ID = "DevFileLocations";
-const char * PcieTimingNode::PV_VVESSEL_TEMP = "ISTTOK:temperature:VVessel-Temperature";
+//const char * PcieTimingNode::PV_VVESSEL_TEMP = "ISTTOK:temperature:VVessel-Temperature";
+const char * PcieTimingNode::PV_COUNTDOWN = "ISTTOK:central:COUNTDOWN";
 
 //const string PcieTimingNode::FS_BUFFER_SEND_SIZE = "BufferSendSize";
 
@@ -150,6 +151,14 @@ PcieTimingNode::PcieTimingNode (const char *propsLoc, wstring mainEventID, const
         }
     }
 
+    int status = ca_create_channel(PV_COUNTDOWN,NULL,NULL,10,&pv_countdwn_id);
+    cout << "ca_create " << PV_COUNTDOWN << " status " << status << endl;
+    status = ca_pend_io(5.0);
+    cout << "ca_pend_io " << PV_COUNTDOWN << " status " << status << endl;
+    status = ca_put(DBR_STRING, pv_countdwn_id, "193");
+    cout << "ca_put " << PV_COUNTDOWN << " status " << status << endl;
+    dpis[0].pv_id = &pv_countdwn_id;
+
     connectToServer ();
     loadSavedValues ();
 
@@ -212,8 +221,9 @@ void *PcieTimingNode::dataProducer(void* args) {
 
     int                       ret         = 0;
     unsigned int              uval;
+    chid        *ppvid       = dpi[0].pv_id;
 
-    chid        vvessel_id; // epics temperature PC */
+    //chid        pv_countdwn_id; // epics temperature PC */
     TIMING_CHANNEL tRegs;
 
     for(int i=0; i<node->nhardware; i++){
@@ -430,13 +440,18 @@ void *PcieTimingNode::dataProducer(void* args) {
             close(fd[i]);
             fd[i] = 0;
         }
-        SEVCHK(ca_context_create(ca_disable_preemptive_callback),"ca_context_create");
-        SEVCHK(ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&vvessel_id),"ca_create_channel failure");
-        SEVCHK(ca_pend_io(5.0),"ca_pend_io failure");
-        SEVCHK(ca_put(DBR_STRING, vvessel_id, "180"), "Put failed");
+        //SEVCHK(ca_context_create(ca_disable_preemptive_callback),"ca_context_create");
+        //SEVCHK(ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&pv_countdwn_id),"ca_create_channel failure");
+        //int status = ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&pv_countdwn_id);
+        //cout << "ca_create " << PV_VVESSEL_TEMP << " status " << status << endl;
+        //status = ca_pend_io(5.0);
+        //cout << "ca_pend_io " << PV_VVESSEL_TEMP << " status " << status << endl;
+        int status = ca_put(DBR_STRING, *ppvid, "180");
+        //SEVCHK(ca_put(DBR_STRING, pv_countdwn_id, "180"), "Put failed");
+        cout << "Caput return: " << status << endl;
         ca_flush_io();
 
-        LOG4CXX_INFO(Utils::getLogger(), "Configure  completed for node");
+        LOG4CXX_INFO(Utils::getLogger(), "Configure completed for node");
     }
 }
 void PcieTimingNode::changeHardwareStatus (const CORBA::WChar * hardwareUniqueID,

@@ -31,6 +31,7 @@
 #include "EventSem.h"
 #include "PcieTimingParameter.h"
 #include <vector>
+#include "cadef.h"
 
 namespace fsignal {
     class PcieTimingNode : public FSNode {
@@ -57,13 +58,15 @@ namespace fsignal {
         //when this number of read bytes is read. New data is sent
         static const std::string                     FS_BUFFER_SEND_SIZE;
         //static const std::string                     PV_VVESSEL_TEMP;
-        static const char *                      PV_VVESSEL_TEMP;
+        //static const char *                      PV_VVESSEL_TEMP;
+        static const char *                      PV_COUNTDOWN;
         //unsigned int                                 bufferSendSize;
         //The location of the char devices for each hardware
         std::vector<std::string>                     devIds;
         //mktime seem to be influenced by CORBA.
         //This gives the difference between PC time and CORBA time
         int                                          timeCorr;
+        chid                        pv_countdwn_id; // epics temperature PC */
     };
 }
 
