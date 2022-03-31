@@ -4,6 +4,7 @@
 # https://ownyourbits.com/2019/05/13/building-docker-containers-in-2019/
 # docker run -it -e DISPLAY=$DISPLAY -w /root/Projects -v $(pwd)/Projects:/root/Projects:Z -v /tmp/.X11-unix:/tmp/.X11-unix DOCKER_IMAGE_ID
 # docker run -it -w /root/Projects -v $(pwd)/Projects:/root/Projects:Z
+# docker run -it -w /root/Projects -v $(pwd)/Projects:/root/Projects --network host --device=/dev/kx1_pcie_timing1  -t buster_fsignal
 # docker exec -it xxx bash
 # To restart stopped container
 #  docker start  `docker ps -q -l`
@@ -24,6 +25,7 @@ RUN apt-get update
 #RUN apt-get install -y build-essential git vim-nox
 RUN apt-get install -y git make gcc libc-dev vim-nox g++
 RUN apt-get install -y libomniorb4-dev libxerces-c-dev liblog4cxx-dev
+RUN apt-get -y install locales
 RUN apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 #RUN adduser --disabled-password --gecos "bernardo"
@@ -34,4 +36,10 @@ RUN git clone https://github.com/bernardocarvalho/fsignal-node-pcie-timing
 #RUN tar xf dist.tgz
 RUN cd fsignal-node-pcie-timing/trunk/cpp/fsignal
 # RUN make
-
+# https://stackoverflow.com/questions/28405902/how-to-set-the-locale-inside-a-debian-ubuntu-docker-container
+# Set the locale
+RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
+    locale-gen
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8

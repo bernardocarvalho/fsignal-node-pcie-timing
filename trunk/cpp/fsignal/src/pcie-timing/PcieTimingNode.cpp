@@ -60,7 +60,7 @@ struct DataProducerInit
 {
     PcieTimingNode *node;
     FSHardware *hardware;
-    chid      * pv_id;
+    //chid      * pv_id;
 };
 
 const string PcieTimingNode::DEV_FILE_LOCATIONS_ID = "DevFileLocations";
@@ -153,11 +153,15 @@ PcieTimingNode::PcieTimingNode (const char *propsLoc, wstring mainEventID, const
 
     int status = ca_create_channel(PV_COUNTDOWN,NULL,NULL,10,&pv_countdwn_id);
     cout << "ca_create " << PV_COUNTDOWN << " status " << status << endl;
-    status = ca_pend_io(5.0);
-    cout << "ca_pend_io " << PV_COUNTDOWN << " status " << status << endl;
+    status = ca_pend_io(1.0);
+    if(status |= 1L){
+        cout << "ca_pend_io " << PV_COUNTDOWN << " status: " << status << endl;
+    }
     status = ca_put(DBR_STRING, pv_countdwn_id, "193");
-    cout << "ca_put " << PV_COUNTDOWN << " status " << status << endl;
-    dpis[0].pv_id = &pv_countdwn_id;
+    ca_flush_io();
+    //ca_clear_channel(pv_countdwn_id);
+    //cout << "ca_put " << PV_COUNTDOWN << " status " << status << endl;
+    //dpis[0].pv_id = &pv_countdwn_id;
 
     connectToServer ();
     loadSavedValues ();
@@ -221,9 +225,9 @@ void *PcieTimingNode::dataProducer(void* args) {
 
     int                       ret         = 0;
     unsigned int              uval;
-    chid        *ppvid       = dpi[0].pv_id;
+    //chid        *ppvid       = dpi[0].pv_id;
 
-    //chid        pv_countdwn_id; // epics temperature PC */
+    chid        pv_cd_id; // epics Countdown PV */
     TIMING_CHANNEL tRegs;
 
     for(int i=0; i<node->nhardware; i++){
@@ -441,15 +445,20 @@ void *PcieTimingNode::dataProducer(void* args) {
             fd[i] = 0;
         }
         //SEVCHK(ca_context_create(ca_disable_preemptive_callback),"ca_context_create");
-        //SEVCHK(ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&pv_countdwn_id),"ca_create_channel failure");
-        //int status = ca_create_channel(PV_VVESSEL_TEMP,NULL,NULL,10,&pv_countdwn_id);
         //cout << "ca_create " << PV_VVESSEL_TEMP << " status " << status << endl;
         //status = ca_pend_io(5.0);
-        //cout << "ca_pend_io " << PV_VVESSEL_TEMP << " status " << status << endl;
-        int status = ca_put(DBR_STRING, *ppvid, "180");
+        int status = ca_create_channel(PV_COUNTDOWN,NULL,NULL,10,&pv_cd_id);
+        //CA status, 1 = OK
+        cout << "ca_create " << PV_COUNTDOWN << " status " << status << endl;
+        status = ca_pend_io(1.0);
+        cout << "ca_pend_io " << PV_COUNTDOWN << " status " << status << endl;
+        //status = ca_put(DBR_STRING, pv_cd_id, "180");
+        //status = ca_put(DBR_LONG, pv_cd_id, 180);
+        //status = ca_put(DBR_STRING, *ppvid, "180");
         //SEVCHK(ca_put(DBR_STRING, pv_countdwn_id, "180"), "Put failed");
-        cout << "Caput return: " << status << endl;
+        cout << "Caput (after close) return: " << status << endl;
         ca_flush_io();
+        //ca_clear_channel(pv_cd_id);
 
         LOG4CXX_INFO(Utils::getLogger(), "Configure completed for node");
     }
